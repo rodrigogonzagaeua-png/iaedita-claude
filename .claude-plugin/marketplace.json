@@ -1,0 +1,14 @@
+{
+  "name": "iaedita-claude",
+  "description": "Catálogo do IAEdita, editor de vídeo no chat.",
+  "owner": {
+    "name": "GROWTH LABS RV LTDA",
+    "email": "hello@growthlabsdigital.com.br"
+  },
+  "plugins": [
+    {
+      "name": "iaedita",
+      "source": "./"
+    }
+  ]
+}

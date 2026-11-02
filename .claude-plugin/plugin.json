@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "iaedita",
+  "displayName": "IAEdita",
+  "version": "1.4.0",
+  "description": "Editor de vídeo profissional no chat: anexe seu vídeo, escolha um entre 20 estilos e receba o vídeo editado aqui mesmo.",
+  "author": {
+    "name": "GROWTH LABS RV LTDA",
+    "email": "hello@growthlabsdigital.com.br"
+  },
+  "keywords": [
+    "video",
+    "edicao",
+    "reels",
+    "tiktok",
+    "legendas",
+    "motion"
+  ],
+  "icon": "./assets/icon.png",
+  "homepage": "https://editor-rg.santosperesraquel4.workers.dev/iaedita/claude/",
+  "documentationUrl": "https://editor-rg.santosperesraquel4.workers.dev/iaedita/claude/",
+  "supportUrl": "https://editor-rg.santosperesraquel4.workers.dev/iaedita/suporte/",
+  "privacyPolicyUrl": "https://editor-rg.santosperesraquel4.workers.dev/iaedita/privacidade/",
+  "termsOfServiceUrl": "https://editor-rg.santosperesraquel4.workers.dev/iaedita/termos/",
+  "repository": "https://github.com/rodrigogonzagaeua-png/iaedita-claude"
+}

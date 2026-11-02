@@ -1,0 +1,22 @@
+IAEdita
+Copyright (c) 2026 GROWTH LABS RV LTDA. Todos os direitos reservados.
+
+Este software é proprietário. O código está visível apenas para que se possa
+conferir o que ele faz. Não é concedida licença para copiar, modificar,
+redistribuir, vender, sublicenciar nem criar obras derivadas, nem para remover
+ou contornar a verificação de acesso, sem autorização escrita da titular.
+
+Fica autorizado instalar e executar o IAEdita pelos meios oficiais, inclusive a cópia no ambiente de execução, e a Anthropic pode copiar, examinar e distribuir este pacote em seus diretórios.
+
+O uso do IAEdita depende de uma conta ativa e dos termos publicados em
+https://editor-rg.santosperesraquel4.workers.dev/iaedita/termos/
+
+Fontes, sons, trilhas e modelos incluídos têm licenças próprias, nestes arquivos
+dentro de skills/iaedita/motor/:
+- sons: sons/LICENCA.md e sons/kit/LICENSE-CC0.txt (CC0 1.0, de terceiro);
+- trilhas: trilhas/LICENCA.md;
+- modelos, inclusive os baixados no uso: modelos/LICENCAS.md;
+- fontes: fontes/Inter-OFL.txt e fontes/CormorantGaramond-OFL.txt.
+
+O software é fornecido "como está", sem garantias além das exigidas por lei.
+Contato: hello@growthlabsdigital.com.br

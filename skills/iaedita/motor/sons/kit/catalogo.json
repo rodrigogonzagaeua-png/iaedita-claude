@@ -1,0 +1,6362 @@
+{
+ "fonte": "SFX Kit by Wyzowl (CC0 1.0)",
+ "url": "https://github.com/wyzowl/sfx-kit",
+ "apelidos": {
+  "whoosh": "whoosh-medium-medium",
+  "whoosh-curto": "whoosh-fast-soft",
+  "lente": "mechanical-shutter-light",
+  "impacto": "impact-medium-firm",
+  "pop": "pop-medium-in",
+  "clique": "click-tap-medium",
+  "tique": "click-toggle-on-medium",
+  "ding": "tone-ding-mid",
+  "vidro": "foley-glass-touch",
+  "papel": "foley-paper-slide",
+  "lapis": "writing-pencil-draw",
+  "swipe": "swipe-medium-soft",
+  "subida": "riser-1s-soft",
+  "descida": "faller-1s-soft",
+  "interface": "digital-blip-clear",
+  "glitch": "digital-glitch-subtle",
+  "digitar": "keyboard-typing-quick-short",
+  "moeda": "money-coin-drop",
+  "sino": "notification-success-chime",
+  "grave": "bass-sub-drop-short"
+ },
+ "sons": [
+  {
+   "id": "whoosh-fast-hard",
+   "categoria": "whooshes",
+   "arquivo": "whooshes/whoosh-fast-hard.m4a",
+   "descricao": "A fast, crisp whip of air with a bright edge and a little push behind it.",
+   "usar_para": [
+    "Whip pans",
+    "Fast cuts between scenes",
+    "Quick zooms",
+    "Energetic social edits"
+   ],
+   "evitar": [
+    "Calm or corporate pieces",
+    "Small UI details",
+    "On top of speech: use a softer one"
+   ],
+   "duracao": 0.252,
+   "sync_em": 0.092,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -4,
+   "nivel": "hard"
+  },
+  {
+   "id": "whoosh-fast-medium",
+   "categoria": "whooshes",
+   "arquivo": "whooshes/whoosh-fast-medium.m4a",
+   "descricao": "A quick, clean swish of air with a defined middle.",
+   "usar_para": [
+    "Cards flicking in or out",
+    "Carousel and tab swipes",
+    "Menus and drawers opening",
+    "Quick text slides"
+   ],
+   "evitar": [
+    "Very subtle micro-interactions (use soft)",
+    "Slow, calm moves"
+   ],
+   "duracao": 0.252,
+   "sync_em": 0.096,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -3,
+   "nivel": "medium"
+  },
+  {
+   "id": "whoosh-fast-soft",
+   "categoria": "whooshes",
+   "arquivo": "whooshes/whoosh-fast-soft.m4a",
+   "descricao": "A quick, gentle puff of air with a soft edge and no weight.",
+   "usar_para": [
+    "Small icons or text sliding in",
+    "A line of text changing",
+    "Tooltips, chips and small UI panels moving",
+    "List items arriving one after another (at a lower gain)"
+   ],
+   "evitar": [
+    "Heavy objects",
+    "Big scene changes"
+   ],
+   "duracao": 0.25,
+   "sync_em": 0.099,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -2,
+   "nivel": "soft"
+  },
+  {
+   "id": "whoosh-medium-hard",
+   "categoria": "whooshes",
+   "arquivo": "whooshes/whoosh-medium-hard.m4a",
+   "descricao": "A strong rush of air with a bright crack at its peak and weight behind it.",
+   "usar_para": [
+    "Big transitions between sections",
+    "Objects flying across the frame",
+    "Bold title moves",
+    "A product spinning into view"
+   ],
+   "evitar": [
+    "Calm or understated films",
+    "Small elements",
+    "On top of speech: use a softer one"
+   ],
+   "duracao": 0.55,
+   "sync_em": 0.201,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -4,
+   "nivel": "hard"
+  },
+  {
+   "id": "whoosh-medium-medium",
+   "categoria": "whooshes",
+   "arquivo": "whooshes/whoosh-medium-medium.m4a",
+   "descricao": "A balanced swish of air: a clear rise, a defined peak and a smooth fade.",
+   "usar_para": [
+    "Standard scene transitions",
+    "Cards and screens sliding across",
+    "A device moving into frame",
+    "Titles moving into place"
+   ],
+   "evitar": [
+    "Tiny UI details",
+    "Very slow moves"
+   ],
+   "duracao": 0.517,
+   "sync_em": 0.209,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -3,
+   "nivel": "medium"
+  },
+  {
+   "id": "whoosh-medium-soft",
+   "categoria": "whooshes",
+   "arquivo": "whooshes/whoosh-medium-soft.m4a",
+   "descricao": "A smooth, gentle sweep of air that rises and fades without an edge.",
+   "usar_para": [
+    "Panels sliding in",
+    "Gentle card reveals",
+    "Backgrounds shifting",
+    "Calm transitions between explainer scenes"
+   ],
+   "evitar": [
+    "Snappy, quick moves",
+    "Energetic edits"
+   ],
+   "duracao": 0.543,
+   "sync_em": 0.229,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -2,
+   "nivel": "soft"
+  },
+  {
+   "id": "whoosh-slow-hard",
+   "categoria": "whooshes",
+   "arquivo": "whooshes/whoosh-slow-hard.m4a",
+   "descricao": "A big, slow rush of air: a deep swell, a bright peak and a long tail.",
+   "usar_para": [
+    "Large, dramatic moves",
+    "A big object passing slowly",
+    "Section openers",
+    "The move before a logo reveal"
+   ],
+   "evitar": [
+    "Small elements",
+    "Calm films"
+   ],
+   "duracao": 1.016,
+   "sync_em": 0.403,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -4,
+   "nivel": "hard"
+  },
+  {
+   "id": "whoosh-slow-medium",
+   "categoria": "whooshes",
+   "arquivo": "whooshes/whoosh-slow-medium.m4a",
+   "descricao": "A slow, full sweep of air with a gentle swell and a long, settled tail.",
+   "usar_para": [
+    "Large panels or maps sliding",
+    "Slow pans across a scene",
+    "Deliberate reveals"
+   ],
+   "evitar": [
+    "Fast cuts",
+    "Small UI elements"
+   ],
+   "duracao": 1.002,
+   "sync_em": 0.438,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -3,
+   "nivel": "medium"
+  },
+  {
+   "id": "whoosh-slow-soft",
+   "categoria": "whooshes",
+   "arquivo": "whooshes/whoosh-slow-soft.m4a",
+   "descricao": "A long, soft breath of air drifting past.",
+   "usar_para": [
+    "Slow camera drifts",
+    "Large shapes moving gently",
+    "Soft moves between calm scenes"
+   ],
+   "evitar": [
+    "Quick moves",
+    "Anything that needs energy"
+   ],
+   "duracao": 1.049,
+   "sync_em": 0.452,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -2,
+   "nivel": "soft"
+  },
+  {
+   "id": "swish-hard",
+   "categoria": "swishes-and-zips",
+   "arquivo": "swishes-and-zips/swish-hard.m4a",
+   "descricao": "A fast, sharp swish: a thin rod cutting the air.",
+   "usar_para": [
+    "Text, icons or arrows flicked into place",
+    "Quick cuts, wipes and whip transitions",
+    "A line or pointer sweeping across"
+   ],
+   "evitar": [
+    "Calm or understated films"
+   ],
+   "duracao": 0.175,
+   "sync_em": 0.054,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -4,
+   "nivel": "hard"
+  },
+  {
+   "id": "swish-medium",
+   "categoria": "swishes-and-zips",
+   "arquivo": "swishes-and-zips/swish-medium.m4a",
+   "descricao": "A quick, clean swish through the air, with a little whistle.",
+   "usar_para": [
+    "Text, icons or arrows flicked into place",
+    "Quick cuts, wipes and whip transitions",
+    "A line or pointer sweeping across"
+   ],
+   "evitar": [
+    "Slow, calm moves (use a whoosh)"
+   ],
+   "duracao": 0.201,
+   "sync_em": 0.076,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -3,
+   "nivel": "medium"
+  },
+  {
+   "id": "swish-soft",
+   "categoria": "swishes-and-zips",
+   "arquivo": "swishes-and-zips/swish-soft.m4a",
+   "descricao": "A soft, thin swish: something light flicked past.",
+   "usar_para": [
+    "Text, icons or arrows flicked into place",
+    "Quick cuts, wipes and whip transitions",
+    "A line or pointer sweeping across"
+   ],
+   "evitar": [
+    "Big, heavy moves (use a whoosh)"
+   ],
+   "duracao": 0.223,
+   "sync_em": 0.085,
+   "encontra": "move-peak",
+   "sob_a_voz_db": -2,
+   "nivel": "soft"
+  },
+  {
+   "id": "zip-in-hard",
+   "categoria": "swishes-and-zips",
+   "arquivo": "swishes-and-zips/zip-in-hard.m4a",
+   "descricao": "A fast, bright zip that lands with a snap.",
+   "usar_para": [
+    "Icons, labels or badges zipping in and stopping",
+    "A line drawing to its end",
+    "Arrows reaching a target (add a light impact)"
+   ],
+   "evitar": [
+    "Calm or understated films",
+    "Things leaving (use zip out)"
+   ],
+   "duracao": 0.284,
+   "sync_em": 0.188,
+   "encontra": "arrival",
+   "sob_a_voz_db": -4,
+   "nivel": "hard"
+  },
+  {
+   "id": "zip-in-medium",
+   "categoria": "swishes-and-zips",
+   "arquivo": "swishes-and-zips/zip-in-medium.m4a",
+   "descricao": "A quick zip in: rising to a stop.",
+   "usar_para": [
+    "Icons, labels or badges zipping in and stopping",
+    "A line drawing to its end",
+    "Arrows reaching a target (add a light impact)"
+   ],
+   "evitar": [
+    "Slow, calm moves (use a whoosh)",
+    "Things leaving (use zip out)"
+   ],
+   "duracao": 0.349,
+   "sync_em": 0.233,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "medium"
+  },
+  {
+   "id": "zip-in-soft",
+   "categoria": "swishes-and-zips",
+   "arquivo": "swishes-and-zips/zip-in-soft.m4a",
+   "descricao": "Something small zipping gently into place.",
+   "usar_para": [
+    "Icons, labels or badges zipping in and stopping",
+    "A line drawing to its end",
+    "Arrows reaching a target (add a light impact)"
+   ],
+   "evitar": [
+    "Big, heavy moves (use a whoosh)",
+    "Things leaving (use zip out)"
+   ],
+   "duracao": 0.414,
+   "sync_em": 0.294,
+   "encontra": "arrival",
+   "sob_a_voz_db": -2,
+   "nivel": "soft"
+  },
+  {
+   "id": "zip-out-hard",
+   "categoria": "swishes-and-zips",
+   "arquivo": "swishes-and-zips/zip-out-hard.m4a",
+   "descricao": "A fast, bright zip launched away.",
+   "usar_para": [
+    "Elements leaving the frame quickly",
+    "Something sent flying: a message, a file",
+    "Swiping an item away"
+   ],
+   "evitar": [
+    "Calm or understated films",
+    "Things arriving (use zip in)"
+   ],
+   "duracao": 0.199,
+   "sync_em": 0.011,
+   "encontra": "release",
+   "sob_a_voz_db": -4,
+   "nivel": "hard"
+  },
+  {
+   "id": "zip-out-medium",
+   "categoria": "swishes-and-zips",
+   "arquivo": "swishes-and-zips/zip-out-medium.m4a",
+   "descricao": "A quick zip out: off it goes, falling away.",
+   "usar_para": [
+    "Elements leaving the frame quickly",
+    "Something sent flying: a message, a file",
+    "Swiping an item away"
+   ],
+   "evitar": [
+    "Slow, calm moves (use a whoosh)",
+    "Things arriving (use zip in)"
+   ],
+   "duracao": 0.256,
+   "sync_em": 0.023,
+   "encontra": "release",
+   "sob_a_voz_db": -3,
+   "nivel": "medium"
+  },
+  {
+   "id": "zip-out-soft",
+   "categoria": "swishes-and-zips",
+   "arquivo": "swishes-and-zips/zip-out-soft.m4a",
+   "descricao": "Something zipping softly away.",
+   "usar_para": [
+    "Elements leaving the frame quickly",
+    "Something sent flying: a message, a file",
+    "Swiping an item away"
+   ],
+   "evitar": [
+    "Big, heavy moves (use a whoosh)",
+    "Things arriving (use zip in)"
+   ],
+   "duracao": 0.307,
+   "sync_em": 0.032,
+   "encontra": "release",
+   "sob_a_voz_db": -2,
+   "nivel": "soft"
+  },
+  {
+   "id": "swipe-fast-firm",
+   "categoria": "swipes",
+   "arquivo": "swipes/swipe-fast-firm.m4a",
+   "descricao": "A quick, definite swipe: a fingertip pressed and flicked across glass.",
+   "usar_para": [
+    "Swiping between screens or photos",
+    "Dismissing a card or notification",
+    "Flicking through a carousel"
+   ],
+   "evitar": [
+    "Objects flying through the air (use a whoosh or swish)",
+    "Very quiet, delicate scenes"
+   ],
+   "duracao": 0.199,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "swipe-fast-soft",
+   "categoria": "swipes",
+   "arquivo": "swipes/swipe-fast-soft.m4a",
+   "descricao": "A light, quick flick of a fingertip across a screen.",
+   "usar_para": [
+    "Swiping between screens or photos",
+    "Dismissing a card or notification",
+    "Flicking through a carousel"
+   ],
+   "evitar": [
+    "Objects flying through the air (use a whoosh or swish)",
+    "Moments that need to cut through music (use firm)"
+   ],
+   "duracao": 0.206,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "swipe-medium-firm",
+   "categoria": "swipes",
+   "arquivo": "swipes/swipe-medium-firm.m4a",
+   "descricao": "A clear swipe across glass, with a crisp touch.",
+   "usar_para": [
+    "Swiping a card across in an app demo",
+    "Moving between tabs or pages",
+    "Swipe-to-unlock and swipe-to-confirm"
+   ],
+   "evitar": [
+    "Objects flying through the air (use a whoosh or swish)",
+    "Very quiet, delicate scenes"
+   ],
+   "duracao": 0.279,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "swipe-medium-soft",
+   "categoria": "swipes",
+   "arquivo": "swipes/swipe-medium-soft.m4a",
+   "descricao": "A soft fingertip swipe across a screen.",
+   "usar_para": [
+    "Swiping a card across in an app demo",
+    "Moving between tabs or pages",
+    "Swipe-to-unlock and swipe-to-confirm"
+   ],
+   "evitar": [
+    "Objects flying through the air (use a whoosh or swish)",
+    "Moments that need to cut through music (use firm)"
+   ],
+   "duracao": 0.293,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "swipe-slow-firm",
+   "categoria": "swipes",
+   "arquivo": "swipes/swipe-slow-firm.m4a",
+   "descricao": "A slow, pressed drag across glass.",
+   "usar_para": [
+    "Dragging an item to a new place",
+    "Scrubbing a slider or timeline",
+    "Slow pans of a map or image under a finger"
+   ],
+   "evitar": [
+    "Objects flying through the air (use a whoosh or swish)",
+    "Very quiet, delicate scenes"
+   ],
+   "duracao": 0.414,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "swipe-slow-soft",
+   "categoria": "swipes",
+   "arquivo": "swipes/swipe-slow-soft.m4a",
+   "descricao": "A slow, light drag of a fingertip across a screen.",
+   "usar_para": [
+    "Dragging an item to a new place",
+    "Scrubbing a slider or timeline",
+    "Slow pans of a map or image under a finger"
+   ],
+   "evitar": [
+    "Objects flying through the air (use a whoosh or swish)",
+    "Moments that need to cut through music (use firm)"
+   ],
+   "duracao": 0.431,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "reverse-whoosh-long-soft",
+   "categoria": "reverse-whooshes",
+   "arquivo": "reverse-whooshes/reverse-whoosh-long-soft.m4a",
+   "descricao": "A long soft reverse whoosh: air drawn in, building to a sudden stop.",
+   "usar_para": [
+    "Something collapsing or shrinking into a point",
+    "The build into a hard cut, a hit or a reveal",
+    "An element pulled back into a button or icon",
+    "A slow pull before a big moment"
+   ],
+   "evitar": [
+    "Moments that should land softly (it stops dead)",
+    "Big, energetic moments (use strong)"
+   ],
+   "duracao": 1.353,
+   "sync_em": 1.192,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "reverse-whoosh-long-strong",
+   "categoria": "reverse-whooshes",
+   "arquivo": "reverse-whooshes/reverse-whoosh-long-strong.m4a",
+   "descricao": "A long strong, bright reverse whoosh: air drawn in, building to a sudden stop.",
+   "usar_para": [
+    "Something collapsing or shrinking into a point",
+    "The build into a hard cut, a hit or a reveal",
+    "An element pulled back into a button or icon",
+    "A slow pull before a big moment"
+   ],
+   "evitar": [
+    "Moments that should land softly (it stops dead)",
+    "Calm, understated films"
+   ],
+   "duracao": 1.358,
+   "sync_em": 1.165,
+   "encontra": "arrival",
+   "sob_a_voz_db": -5,
+   "nivel": "strong"
+  },
+  {
+   "id": "reverse-whoosh-medium-soft",
+   "categoria": "reverse-whooshes",
+   "arquivo": "reverse-whooshes/reverse-whoosh-medium-soft.m4a",
+   "descricao": "A soft reverse whoosh: air drawn in, building to a sudden stop.",
+   "usar_para": [
+    "Something collapsing or shrinking into a point",
+    "The build into a hard cut, a hit or a reveal",
+    "An element pulled back into a button or icon",
+    "A quick suck-in transition"
+   ],
+   "evitar": [
+    "Moments that should land softly (it stops dead)",
+    "Big, energetic moments (use strong)"
+   ],
+   "duracao": 0.861,
+   "sync_em": 0.679,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "reverse-whoosh-medium-strong",
+   "categoria": "reverse-whooshes",
+   "arquivo": "reverse-whooshes/reverse-whoosh-medium-strong.m4a",
+   "descricao": "A strong, bright reverse whoosh: air drawn in, building to a sudden stop.",
+   "usar_para": [
+    "Something collapsing or shrinking into a point",
+    "The build into a hard cut, a hit or a reveal",
+    "An element pulled back into a button or icon",
+    "A quick suck-in transition"
+   ],
+   "evitar": [
+    "Moments that should land softly (it stops dead)",
+    "Calm, understated films"
+   ],
+   "duracao": 0.836,
+   "sync_em": 0.682,
+   "encontra": "arrival",
+   "sob_a_voz_db": -5,
+   "nivel": "strong"
+  },
+  {
+   "id": "reverse-whoosh-short-soft",
+   "categoria": "reverse-whooshes",
+   "arquivo": "reverse-whooshes/reverse-whoosh-short-soft.m4a",
+   "descricao": "A short soft reverse whoosh: air drawn in, building to a sudden stop.",
+   "usar_para": [
+    "Something collapsing or shrinking into a point",
+    "The build into a hard cut, a hit or a reveal",
+    "An element pulled back into a button or icon",
+    "A quick suck-in transition"
+   ],
+   "evitar": [
+    "Moments that should land softly (it stops dead)",
+    "Big, energetic moments (use strong)"
+   ],
+   "duracao": 0.509,
+   "sync_em": 0.336,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "reverse-whoosh-short-strong",
+   "categoria": "reverse-whooshes",
+   "arquivo": "reverse-whooshes/reverse-whoosh-short-strong.m4a",
+   "descricao": "A short strong, bright reverse whoosh: air drawn in, building to a sudden stop.",
+   "usar_para": [
+    "Something collapsing or shrinking into a point",
+    "The build into a hard cut, a hit or a reveal",
+    "An element pulled back into a button or icon",
+    "A quick suck-in transition"
+   ],
+   "evitar": [
+    "Moments that should land softly (it stops dead)",
+    "Calm, understated films"
+   ],
+   "duracao": 0.499,
+   "sync_em": 0.34,
+   "encontra": "arrival",
+   "sob_a_voz_db": -5,
+   "nivel": "strong"
+  },
+  {
+   "id": "faller-1s-soft",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/faller-1s-soft.m4a",
+   "descricao": "A 1-second soft, airy fall from its peak, descending and settling.",
+   "usar_para": [
+    "Something leaving, dropping or powering down",
+    "The release after a reveal",
+    "Transitions out of a section"
+   ],
+   "evitar": [
+    "Arrivals (use a rise or an impact)",
+    "Big, energetic moments (use strong)"
+   ],
+   "duracao": 0.862,
+   "sync_em": 0.01,
+   "encontra": "release",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "faller-1s-strong",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/faller-1s-strong.m4a",
+   "descricao": "A 1-second strong, bright fall from its peak, descending and settling.",
+   "usar_para": [
+    "Something leaving, dropping or powering down",
+    "The release after a reveal",
+    "Transitions out of a section"
+   ],
+   "evitar": [
+    "Arrivals (use a rise or an impact)",
+    "Calm, understated films"
+   ],
+   "duracao": 0.88,
+   "sync_em": 0.015,
+   "encontra": "release",
+   "sob_a_voz_db": -5,
+   "nivel": "strong"
+  },
+  {
+   "id": "faller-2s-soft",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/faller-2s-soft.m4a",
+   "descricao": "A 2-second soft, airy fall from its peak, descending and settling.",
+   "usar_para": [
+    "Something leaving, dropping or powering down",
+    "The release after a reveal",
+    "Transitions out of a section"
+   ],
+   "evitar": [
+    "Arrivals (use a rise or an impact)",
+    "Big, energetic moments (use strong)"
+   ],
+   "duracao": 1.831,
+   "sync_em": 0.011,
+   "encontra": "release",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "faller-2s-strong",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/faller-2s-strong.m4a",
+   "descricao": "A 2-second strong, bright fall from its peak, descending and settling.",
+   "usar_para": [
+    "Something leaving, dropping or powering down",
+    "The release after a reveal",
+    "Transitions out of a section"
+   ],
+   "evitar": [
+    "Arrivals (use a rise or an impact)",
+    "Calm, understated films"
+   ],
+   "duracao": 1.882,
+   "sync_em": 0.034,
+   "encontra": "release",
+   "sob_a_voz_db": -5,
+   "nivel": "strong"
+  },
+  {
+   "id": "faller-4s-soft",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/faller-4s-soft.m4a",
+   "descricao": "A 4-second soft, airy fall from its peak, descending and settling.",
+   "usar_para": [
+    "Something leaving, dropping or powering down",
+    "The release after a reveal",
+    "Transitions out of a section"
+   ],
+   "evitar": [
+    "Arrivals (use a rise or an impact)",
+    "Big, energetic moments (use strong)"
+   ],
+   "duracao": 3.859,
+   "sync_em": 0.07,
+   "encontra": "release",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "faller-4s-strong",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/faller-4s-strong.m4a",
+   "descricao": "A 4-second strong, bright fall from its peak, descending and settling.",
+   "usar_para": [
+    "Something leaving, dropping or powering down",
+    "The release after a reveal",
+    "Transitions out of a section"
+   ],
+   "evitar": [
+    "Arrivals (use a rise or an impact)",
+    "Calm, understated films"
+   ],
+   "duracao": 3.87,
+   "sync_em": 0.01,
+   "encontra": "release",
+   "sob_a_voz_db": -5,
+   "nivel": "strong"
+  },
+  {
+   "id": "riser-1s-soft",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/riser-1s-soft.m4a",
+   "descricao": "A 1-second soft, airy rise that builds to its peak at the end.",
+   "usar_para": [
+    "Building up to a reveal: a logo, a product, a big number",
+    "Leading into a new section",
+    "A short lift before something appears"
+   ],
+   "evitar": [
+    "Reveals that land before the rise ends: the peak is at its end",
+    "Big, energetic moments (use strong)"
+   ],
+   "duracao": 1.19,
+   "sync_em": 0.982,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "riser-1s-strong",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/riser-1s-strong.m4a",
+   "descricao": "A 1-second strong, bright rise that builds to its peak at the end.",
+   "usar_para": [
+    "Building up to a reveal: a logo, a product, a big number",
+    "Leading into a new section",
+    "A short lift before something appears"
+   ],
+   "evitar": [
+    "Reveals that land before the rise ends: the peak is at its end",
+    "Calm, understated films"
+   ],
+   "duracao": 1.216,
+   "sync_em": 0.984,
+   "encontra": "arrival",
+   "sob_a_voz_db": -5,
+   "nivel": "strong"
+  },
+  {
+   "id": "riser-2s-soft",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/riser-2s-soft.m4a",
+   "descricao": "A 2-second soft, airy rise that builds to its peak at the end.",
+   "usar_para": [
+    "Building up to a reveal: a logo, a product, a big number",
+    "Leading into a new section",
+    "A short lift before something appears"
+   ],
+   "evitar": [
+    "Reveals that land before the rise ends: the peak is at its end",
+    "Big, energetic moments (use strong)"
+   ],
+   "duracao": 2.189,
+   "sync_em": 1.994,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "riser-2s-strong",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/riser-2s-strong.m4a",
+   "descricao": "A 2-second strong, bright rise that builds to its peak at the end.",
+   "usar_para": [
+    "Building up to a reveal: a logo, a product, a big number",
+    "Leading into a new section",
+    "A short lift before something appears"
+   ],
+   "evitar": [
+    "Reveals that land before the rise ends: the peak is at its end",
+    "Calm, understated films"
+   ],
+   "duracao": 2.195,
+   "sync_em": 1.978,
+   "encontra": "arrival",
+   "sob_a_voz_db": -5,
+   "nivel": "strong"
+  },
+  {
+   "id": "riser-4s-soft",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/riser-4s-soft.m4a",
+   "descricao": "A 4-second soft, airy rise that builds to its peak at the end.",
+   "usar_para": [
+    "Building up to a reveal: a logo, a product, a big number",
+    "Leading into a new section",
+    "A long build under a title sequence"
+   ],
+   "evitar": [
+    "Reveals that land before the rise ends: the peak is at its end",
+    "Big, energetic moments (use strong)"
+   ],
+   "duracao": 4.184,
+   "sync_em": 3.945,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "riser-4s-strong",
+   "categoria": "risers-and-fallers",
+   "arquivo": "risers-and-fallers/riser-4s-strong.m4a",
+   "descricao": "A 4-second strong, bright rise that builds to its peak at the end.",
+   "usar_para": [
+    "Building up to a reveal: a logo, a product, a big number",
+    "Leading into a new section",
+    "A long build under a title sequence"
+   ],
+   "evitar": [
+    "Reveals that land before the rise ends: the peak is at its end",
+    "Calm, understated films"
+   ],
+   "duracao": 4.191,
+   "sync_em": 3.977,
+   "encontra": "arrival",
+   "sob_a_voz_db": -5,
+   "nivel": "strong"
+  },
+  {
+   "id": "move-bounce",
+   "categoria": "bounce-spin-zoom",
+   "arquivo": "bounce-spin-zoom/move-bounce.m4a",
+   "descricao": "A rubber ball bouncing to rest: bonk, bonk, bonk-bonk-bonk.",
+   "usar_para": [
+    "Elements bouncing into place",
+    "Playful, springy animation",
+    "A ball, a dot or a character bouncing"
+   ],
+   "evitar": [
+    "Serious or corporate scenes"
+   ],
+   "duracao": 0.926,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "bounce"
+  },
+  {
+   "id": "move-spin",
+   "categoria": "bounce-spin-zoom",
+   "arquivo": "bounce-spin-zoom/move-spin.m4a",
+   "descricao": "Something spinning fast, whirring up and winding down.",
+   "usar_para": [
+    "A logo, icon or wheel spinning",
+    "Loading and refreshing",
+    "A coin or a globe turning"
+   ],
+   "evitar": [
+    "Small, subtle moves (use a soft whoosh)"
+   ],
+   "duracao": 1.138,
+   "sync_em": 0.007,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "spin"
+  },
+  {
+   "id": "move-spring",
+   "categoria": "bounce-spin-zoom",
+   "arquivo": "bounce-spin-zoom/move-spring.m4a",
+   "descricao": "A coiled spring flicked: a wobbling boing.",
+   "usar_para": [
+    "Something springing up or popping out",
+    "Playful, cartoon moments",
+    "A jack-in-the-box reveal"
+   ],
+   "evitar": [
+    "Serious or corporate scenes"
+   ],
+   "duracao": 0.899,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "spring"
+  },
+  {
+   "id": "move-zoom-in",
+   "categoria": "bounce-spin-zoom",
+   "arquivo": "bounce-spin-zoom/move-zoom-in.m4a",
+   "descricao": "Zooming in: air rushing nearer and rising to the moment it arrives.",
+   "usar_para": [
+    "Zooming into a detail or a screen",
+    "Pushing in on a scene",
+    "Focusing on one thing"
+   ],
+   "evitar": [
+    "Small, subtle moves (use a soft whoosh)"
+   ],
+   "duracao": 0.566,
+   "sync_em": 0.489,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "zoom-in"
+  },
+  {
+   "id": "move-zoom-out",
+   "categoria": "bounce-spin-zoom",
+   "arquivo": "bounce-spin-zoom/move-zoom-out.m4a",
+   "descricao": "Zooming out: air falling away as it recedes.",
+   "usar_para": [
+    "Zooming out to the bigger picture",
+    "Pulling back from a scene",
+    "Revealing the whole"
+   ],
+   "evitar": [
+    "Small, subtle moves (use a soft whoosh)"
+   ],
+   "duracao": 0.547,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "zoom-out"
+  },
+  {
+   "id": "impact-deep-firm",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-deep-firm.m4a",
+   "descricao": "A deep, booming knock: a big object landing on a wooden stage.",
+   "usar_para": [
+    "Big, weighty landings with real bass",
+    "A title or object slamming down",
+    "Moments that need to be felt",
+    "Natural, everyday landings"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Small elements"
+   ],
+   "duracao": 1.145,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -7,
+   "nivel": "deep"
+  },
+  {
+   "id": "impact-deep-hard",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-deep-hard.m4a",
+   "descricao": "A deep, hard hit: a crisp crack over a heavy, rumbling low end.",
+   "usar_para": [
+    "Big, weighty landings with real bass",
+    "A title or object slamming down",
+    "Moments that need to be felt",
+    "Crisp, confident landings"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Small elements",
+    "Calm, softly spoken films"
+   ],
+   "duracao": 1.205,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -7,
+   "nivel": "deep"
+  },
+  {
+   "id": "impact-deep-soft",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-deep-soft.m4a",
+   "descricao": "A deep, bass-heavy thud: something big landing on something soft.",
+   "usar_para": [
+    "Big, weighty landings with real bass",
+    "A title or object slamming down",
+    "Moments that need to be felt",
+    "Gentle, friendly landings"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Small elements",
+    "Moments that need a crisp edge"
+   ],
+   "duracao": 1.276,
+   "sync_em": 0.045,
+   "encontra": "instant",
+   "sob_a_voz_db": -7,
+   "nivel": "deep"
+  },
+  {
+   "id": "impact-heavy-firm",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-heavy-firm.m4a",
+   "descricao": "A deep, weighty knock: a heavy object landing on a wooden floor.",
+   "usar_para": [
+    "Big elements landing",
+    "A product or device set down with weight",
+    "Section openers and emphatic beats",
+    "Natural, everyday landings"
+   ],
+   "evitar": [
+    "Small elements"
+   ],
+   "duracao": 0.3,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "heavy"
+  },
+  {
+   "id": "impact-heavy-hard",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-heavy-hard.m4a",
+   "descricao": "A big, solid hit: crisp on top and deep underneath.",
+   "usar_para": [
+    "Big elements landing",
+    "A product or device set down with weight",
+    "Section openers and emphatic beats",
+    "Crisp, confident landings"
+   ],
+   "evitar": [
+    "Small elements",
+    "Calm, softly spoken films"
+   ],
+   "duracao": 0.3,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "heavy"
+  },
+  {
+   "id": "impact-heavy-soft",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-heavy-soft.m4a",
+   "descricao": "A heavy, muffled thump: weight landing on something soft.",
+   "usar_para": [
+    "Big elements landing",
+    "A product or device set down with weight",
+    "Section openers and emphatic beats",
+    "Gentle, friendly landings"
+   ],
+   "evitar": [
+    "Small elements",
+    "Moments that need a crisp edge"
+   ],
+   "duracao": 0.32,
+   "sync_em": 0.018,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "heavy"
+  },
+  {
+   "id": "impact-light-firm",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-light-firm.m4a",
+   "descricao": "A light wooden tap: a small object set down on a table.",
+   "usar_para": [
+    "Small elements landing or snapping into place",
+    "Icons dropping into a grid",
+    "Labels and tags settling",
+    "Natural, everyday landings"
+   ],
+   "evitar": [
+    "Big, heavy moves"
+   ],
+   "duracao": 0.099,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "light"
+  },
+  {
+   "id": "impact-light-hard",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-light-hard.m4a",
+   "descricao": "A light, crisp tick: a small, hard object landing on stone.",
+   "usar_para": [
+    "Small elements landing or snapping into place",
+    "Icons dropping into a grid",
+    "Labels and tags settling",
+    "Crisp, confident landings"
+   ],
+   "evitar": [
+    "Big, heavy moves",
+    "Calm, softly spoken films"
+   ],
+   "duracao": 0.087,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "light"
+  },
+  {
+   "id": "impact-light-soft",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-light-soft.m4a",
+   "descricao": "A light, muffled landing: something small dropping onto a cushion.",
+   "usar_para": [
+    "Small elements landing or snapping into place",
+    "Icons dropping into a grid",
+    "Labels and tags settling",
+    "Gentle, friendly landings"
+   ],
+   "evitar": [
+    "Big, heavy moves",
+    "Moments that need a crisp edge"
+   ],
+   "duracao": 0.166,
+   "sync_em": 0.012,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "light"
+  },
+  {
+   "id": "impact-medium-firm",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-medium-firm.m4a",
+   "descricao": "A solid knock: a medium-sized object landing on wood.",
+   "usar_para": [
+    "Cards and panels landing",
+    "Objects dropping into frame",
+    "A title setting into place",
+    "Natural, everyday landings"
+   ],
+   "evitar": [
+    "Tiny details"
+   ],
+   "duracao": 0.175,
+   "sync_em": 0.012,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "medium"
+  },
+  {
+   "id": "impact-medium-hard",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-medium-hard.m4a",
+   "descricao": "A crisp, solid hit with a short, bright edge.",
+   "usar_para": [
+    "Cards and panels landing",
+    "Objects dropping into frame",
+    "A title setting into place",
+    "Crisp, confident landings"
+   ],
+   "evitar": [
+    "Tiny details",
+    "Calm, softly spoken films"
+   ],
+   "duracao": 0.162,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "medium"
+  },
+  {
+   "id": "impact-medium-soft",
+   "categoria": "impacts",
+   "arquivo": "impacts/impact-medium-soft.m4a",
+   "descricao": "A soft, padded thud: something landing on fabric.",
+   "usar_para": [
+    "Cards and panels landing",
+    "Objects dropping into frame",
+    "A title setting into place",
+    "Gentle, friendly landings"
+   ],
+   "evitar": [
+    "Tiny details",
+    "Moments that need a crisp edge"
+   ],
+   "duracao": 0.21,
+   "sync_em": 0.013,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "medium"
+  },
+  {
+   "id": "cinematic-drum-big",
+   "categoria": "cinematic-hits",
+   "arquivo": "cinematic-hits/cinematic-drum-big.m4a",
+   "descricao": "A giant drum struck hard: the crack of the stick and a big, deep boom.",
+   "usar_para": [
+    "Title slams and trailer beats",
+    "A logo or product landing with force",
+    "Dramatic reveals",
+    "Big moments: a title, a reveal, a turning point"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ],
+   "duracao": 2.178,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "big"
+  },
+  {
+   "id": "cinematic-drum-massive",
+   "categoria": "cinematic-hits",
+   "arquivo": "cinematic-hits/cinematic-drum-massive.m4a",
+   "descricao": "A colossal drum hit: a crack, then a huge boom sinking into a vast hall.",
+   "usar_para": [
+    "Title slams and trailer beats",
+    "A logo or product landing with force",
+    "Dramatic reveals",
+    "The biggest moments: a climax or a final reveal"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ],
+   "duracao": 3.335,
+   "sync_em": 0.034,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "massive"
+  },
+  {
+   "id": "cinematic-metal-big",
+   "categoria": "cinematic-hits",
+   "arquivo": "cinematic-hits/cinematic-metal-big.m4a",
+   "descricao": "A big metal hit: a deep clang of steel ringing on.",
+   "usar_para": [
+    "Industrial, engineering and tech reveals",
+    "A heavy, hard statement",
+    "Strength, machines and steel",
+    "Big moments: a title, a reveal, a turning point"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ],
+   "duracao": 2.115,
+   "sync_em": 0.03,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "big"
+  },
+  {
+   "id": "cinematic-metal-massive",
+   "categoria": "cinematic-hits",
+   "arquivo": "cinematic-hits/cinematic-metal-massive.m4a",
+   "descricao": "A massive metal hit: a great steel beam struck, its clang ringing into a vast hall.",
+   "usar_para": [
+    "Industrial, engineering and tech reveals",
+    "A heavy, hard statement",
+    "Strength, machines and steel",
+    "The biggest moments: a climax or a final reveal"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ],
+   "duracao": 3.22,
+   "sync_em": 0.015,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "massive"
+  },
+  {
+   "id": "cinematic-slam-big",
+   "categoria": "cinematic-hits",
+   "arquivo": "cinematic-hits/cinematic-slam-big.m4a",
+   "descricao": "A big slam: a heavy wooden door crashing shut in a hall.",
+   "usar_para": [
+    "A door closing on a scene, or an ending",
+    "Something final: done, locked, decided",
+    "A hard cut to black",
+    "Big moments: a title, a reveal, a turning point"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ],
+   "duracao": 2.225,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "big"
+  },
+  {
+   "id": "cinematic-slam-massive",
+   "categoria": "cinematic-hits",
+   "arquivo": "cinematic-hits/cinematic-slam-massive.m4a",
+   "descricao": "A massive slam: a huge door crashing shut, its frame rattling, the hall booming.",
+   "usar_para": [
+    "A door closing on a scene, or an ending",
+    "Something final: done, locked, decided",
+    "A hard cut to black",
+    "The biggest moments: a climax or a final reveal"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ],
+   "duracao": 3.143,
+   "sync_em": 0.084,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "massive"
+  },
+  {
+   "id": "cinematic-thunder-big",
+   "categoria": "cinematic-hits",
+   "arquivo": "cinematic-hits/cinematic-thunder-big.m4a",
+   "descricao": "A thunderclap: a sharp crack and a rolling rumble.",
+   "usar_para": [
+    "A shock or a big turn in the story",
+    "A dramatic warning or reveal",
+    "Power, scale and storms",
+    "Big moments: a title, a reveal, a turning point"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ],
+   "duracao": 3.813,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "big"
+  },
+  {
+   "id": "cinematic-thunder-massive",
+   "categoria": "cinematic-hits",
+   "arquivo": "cinematic-hits/cinematic-thunder-massive.m4a",
+   "descricao": "A massive thunderclap overhead: a crack tearing into a long, deep roll.",
+   "usar_para": [
+    "A shock or a big turn in the story",
+    "A dramatic warning or reveal",
+    "Power, scale and storms",
+    "The biggest moments: a climax or a final reveal"
+   ],
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ],
+   "duracao": 4.939,
+   "sync_em": 0.012,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "massive"
+  },
+  {
+   "id": "bass-808-long",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/bass-808-long.m4a",
+   "descricao": "A long 808-style bass that slides down to F at the end.",
+   "usar_para": [
+    "A punchy accent on a beat or a cut",
+    "Modern, energetic edits and social videos",
+    "A title or a number hitting with bass"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 2.554,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "808"
+  },
+  {
+   "id": "bass-808-medium",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/bass-808-medium.m4a",
+   "descricao": "An 808-style bass that rings on: a tuned bass kick on C.",
+   "usar_para": [
+    "A punchy accent on a beat or a cut",
+    "Modern, energetic edits and social videos",
+    "A title or a number hitting with bass"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 1.469,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "808"
+  },
+  {
+   "id": "bass-808-short",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/bass-808-short.m4a",
+   "descricao": "A short, punchy 808-style bass: a tuned bass kick on C.",
+   "usar_para": [
+    "A punchy accent on a beat or a cut",
+    "Modern, energetic edits and social videos",
+    "A title or a number hitting with bass"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 0.683,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "808"
+  },
+  {
+   "id": "bass-rumble-long",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/bass-rumble-long.m4a",
+   "descricao": "A long, deep rumble: a quake building and settling.",
+   "usar_para": [
+    "Tension building under a scene",
+    "Something huge approaching, or the ground shaking",
+    "Under a dramatic reveal"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 4.679,
+   "sync_em": 0.052,
+   "encontra": "action-start",
+   "sob_a_voz_db": -8,
+   "nivel": "rumble"
+  },
+  {
+   "id": "bass-rumble-medium",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/bass-rumble-medium.m4a",
+   "descricao": "A low rumble of about three seconds: distant thunder, the ground shaking.",
+   "usar_para": [
+    "Tension building under a scene",
+    "Something huge approaching, or the ground shaking",
+    "Under a dramatic reveal"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 2.805,
+   "sync_em": 0.017,
+   "encontra": "action-start",
+   "sob_a_voz_db": -8,
+   "nivel": "rumble"
+  },
+  {
+   "id": "bass-rumble-short",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/bass-rumble-short.m4a",
+   "descricao": "A quick low rumble, rolling in and away.",
+   "usar_para": [
+    "Tension building under a scene",
+    "Something huge approaching, or the ground shaking",
+    "Under a dramatic reveal"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 1.528,
+   "sync_em": 0.003,
+   "encontra": "action-start",
+   "sob_a_voz_db": -8,
+   "nivel": "rumble"
+  },
+  {
+   "id": "bass-sub-drop-long",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/bass-sub-drop-long.m4a",
+   "descricao": "A long sub drop of about four seconds, sinking slowly away.",
+   "usar_para": [
+    "The moment after a build: a reveal, a logo or a big statement",
+    "Scene changes and title cards with weight",
+    "The bottom dropping out"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 3.909,
+   "sync_em": 0.021,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "sub-drop"
+  },
+  {
+   "id": "bass-sub-drop-medium",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/bass-sub-drop-medium.m4a",
+   "descricao": "A sub drop of about two seconds: deep and falling, felt more than heard.",
+   "usar_para": [
+    "The moment after a build: a reveal, a logo or a big statement",
+    "Scene changes and title cards with weight",
+    "The bottom dropping out"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 2.154,
+   "sync_em": 0.021,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "sub-drop"
+  },
+  {
+   "id": "bass-sub-drop-short",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/bass-sub-drop-short.m4a",
+   "descricao": "A short sub drop: a deep tone dropping away, about a second.",
+   "usar_para": [
+    "The moment after a build: a reveal, a logo or a big statement",
+    "Scene changes and title cards with weight",
+    "The bottom dropping out"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 1.175,
+   "sync_em": 0.021,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "sub-drop"
+  },
+  {
+   "id": "boom-drop-medium",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/boom-drop-medium.m4a",
+   "descricao": "A deep drop: a boom sinking, with a low roll under it.",
+   "usar_para": [
+    "The reveal after a build (a riser or reverse whoosh into it)",
+    "A bold opening or a section opener",
+    "A dramatic pause: the bottom dropping out"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 3.441,
+   "sync_em": 0.052,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "medium"
+  },
+  {
+   "id": "boom-drop-soft",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/boom-drop-soft.m4a",
+   "descricao": "A soft boom that sinks away.",
+   "usar_para": [
+    "The reveal after a build (a riser or reverse whoosh into it)",
+    "A bold opening or a section opener",
+    "A dramatic pause: the bottom dropping out"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 2.905,
+   "sync_em": 0.019,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "soft"
+  },
+  {
+   "id": "boom-drop-strong",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/boom-drop-strong.m4a",
+   "descricao": "A huge, sinking drop with a rolling rumble: the biggest moment.",
+   "usar_para": [
+    "The reveal after a build (a riser or reverse whoosh into it)",
+    "A bold opening or a section opener",
+    "A dramatic pause: the bottom dropping out"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI",
+    "Calm or understated films"
+   ],
+   "duracao": 4.293,
+   "sync_em": 0.095,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "strong"
+  },
+  {
+   "id": "boom-hit-medium",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/boom-hit-medium.m4a",
+   "descricao": "A deep, rounded boom with a warm hall.",
+   "usar_para": [
+    "A title card or logo landing with weight",
+    "A big statement or a key number",
+    "A scene change with impact"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 1.301,
+   "sync_em": 0.038,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "medium"
+  },
+  {
+   "id": "boom-hit-soft",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/boom-hit-soft.m4a",
+   "descricao": "A soft, deep boom: a big drum struck gently in a hall.",
+   "usar_para": [
+    "A title card or logo landing with weight",
+    "A big statement or a key number",
+    "A scene change with impact"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ],
+   "duracao": 1.02,
+   "sync_em": 0.031,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "soft"
+  },
+  {
+   "id": "boom-hit-strong",
+   "categoria": "booms-and-bass",
+   "arquivo": "booms-and-bass/boom-hit-strong.m4a",
+   "descricao": "A big, deep boom that fills the room.",
+   "usar_para": [
+    "A title card or logo landing with weight",
+    "A big statement or a key number",
+    "A scene change with impact"
+   ],
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI",
+    "Calm or understated films"
+   ],
+   "duracao": 1.693,
+   "sync_em": 0.047,
+   "encontra": "instant",
+   "sob_a_voz_db": -8,
+   "nivel": "strong"
+  },
+  {
+   "id": "pop-large-bubble",
+   "categoria": "pops",
+   "arquivo": "pops/pop-large-bubble.m4a",
+   "descricao": "A deep, round bubble bloop.",
+   "usar_para": [
+    "Playful appear moments",
+    "Chat bubbles and messages appearing",
+    "Light, friendly reveals",
+    "Big shapes and panels"
+   ],
+   "evitar": [
+    "Serious or corporate moments",
+    "Tiny details"
+   ],
+   "duracao": 0.208,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "large"
+  },
+  {
+   "id": "pop-large-in",
+   "categoria": "pops",
+   "arquivo": "pops/pop-large-in.m4a",
+   "descricao": "A full, round pop with a little puff of air.",
+   "usar_para": [
+    "Elements appearing or scaling up into view",
+    "Icons, badges and stickers popping in",
+    "Points on a chart appearing",
+    "Big shapes and panels"
+   ],
+   "evitar": [
+    "Things leaving the screen (use pop out)",
+    "Tiny details"
+   ],
+   "duracao": 0.112,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "large"
+  },
+  {
+   "id": "pop-large-out",
+   "categoria": "pops",
+   "arquivo": "pops/pop-large-out.m4a",
+   "descricao": "A low, soft pop that sinks away.",
+   "usar_para": [
+    "Elements disappearing or scaling down",
+    "Closing or dismissing something",
+    "Removing an item from a list",
+    "Big shapes and panels"
+   ],
+   "evitar": [
+    "Things arriving (use pop in)",
+    "Tiny details"
+   ],
+   "duracao": 0.11,
+   "sync_em": 0.012,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "large"
+  },
+  {
+   "id": "pop-medium-bubble",
+   "categoria": "pops",
+   "arquivo": "pops/pop-medium-bubble.m4a",
+   "descricao": "A clean bubble plip with a small one after it.",
+   "usar_para": [
+    "Playful appear moments",
+    "Chat bubbles and messages appearing",
+    "Light, friendly reveals",
+    "Cards, buttons and labels"
+   ],
+   "evitar": [
+    "Serious or corporate moments"
+   ],
+   "duracao": 0.126,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "medium"
+  },
+  {
+   "id": "pop-medium-in",
+   "categoria": "pops",
+   "arquivo": "pops/pop-medium-in.m4a",
+   "descricao": "A round, friendly pop that lifts into place.",
+   "usar_para": [
+    "Elements appearing or scaling up into view",
+    "Icons, badges and stickers popping in",
+    "Points on a chart appearing",
+    "Cards, buttons and labels"
+   ],
+   "evitar": [
+    "Things leaving the screen (use pop out)"
+   ],
+   "duracao": 0.06,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "medium"
+  },
+  {
+   "id": "pop-medium-out",
+   "categoria": "pops",
+   "arquivo": "pops/pop-medium-out.m4a",
+   "descricao": "A soft pop that falls away as something disappears.",
+   "usar_para": [
+    "Elements disappearing or scaling down",
+    "Closing or dismissing something",
+    "Removing an item from a list",
+    "Cards, buttons and labels"
+   ],
+   "evitar": [
+    "Things arriving (use pop in)"
+   ],
+   "duracao": 0.069,
+   "sync_em": 0.012,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "medium"
+  },
+  {
+   "id": "pop-small-bubble",
+   "categoria": "pops",
+   "arquivo": "pops/pop-small-bubble.m4a",
+   "descricao": "A tiny water-bubble blip, light and quick.",
+   "usar_para": [
+    "Playful appear moments",
+    "Chat bubbles and messages appearing",
+    "Light, friendly reveals",
+    "Small elements: dots, icons, badges"
+   ],
+   "evitar": [
+    "Serious or corporate moments",
+    "Big shapes"
+   ],
+   "duracao": 0.081,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "small"
+  },
+  {
+   "id": "pop-small-in",
+   "categoria": "pops",
+   "arquivo": "pops/pop-small-in.m4a",
+   "descricao": "A tiny, bright pop that lifts as it appears.",
+   "usar_para": [
+    "Elements appearing or scaling up into view",
+    "Icons, badges and stickers popping in",
+    "Points on a chart appearing",
+    "Small elements: dots, icons, badges"
+   ],
+   "evitar": [
+    "Things leaving the screen (use pop out)",
+    "Big shapes"
+   ],
+   "duracao": 0.04,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "small"
+  },
+  {
+   "id": "pop-small-out",
+   "categoria": "pops",
+   "arquivo": "pops/pop-small-out.m4a",
+   "descricao": "A tiny, soft pop that drops away.",
+   "usar_para": [
+    "Elements disappearing or scaling down",
+    "Closing or dismissing something",
+    "Removing an item from a list",
+    "Small elements: dots, icons, badges"
+   ],
+   "evitar": [
+    "Things arriving (use pop in)",
+    "Big shapes"
+   ],
+   "duracao": 0.051,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "small"
+  },
+  {
+   "id": "appear-burst",
+   "categoria": "appear-and-vanish",
+   "arquivo": "appear-and-vanish/appear-burst.m4a",
+   "descricao": "Something bursting apart: a pop, a thump and pieces scattering.",
+   "usar_para": [
+    "A bubble or shape bursting",
+    "Breaking free, breaking through",
+    "An explosion of ideas or confetti"
+   ],
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ],
+   "duracao": 1.005,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "burst"
+  },
+  {
+   "id": "appear-dissolve",
+   "categoria": "appear-and-vanish",
+   "arquivo": "appear-and-vanish/appear-dissolve.m4a",
+   "descricao": "Something dissolving into fine particles that drift away.",
+   "usar_para": [
+    "An element dissolving or breaking into particles",
+    "Problems or data fading away",
+    "Soft exits"
+   ],
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ],
+   "duracao": 1.15,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "dissolve"
+  },
+  {
+   "id": "appear-flip-quick",
+   "categoria": "appear-and-vanish",
+   "arquivo": "appear-and-vanish/appear-flip-quick.m4a",
+   "descricao": "A card flipping over quickly, landing with a light tap.",
+   "usar_para": [
+    "A card flipping to reveal its back",
+    "Tiles turning over",
+    "Quick reveals"
+   ],
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ],
+   "duracao": 0.178,
+   "sync_em": 0.155,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "flip-quick"
+  },
+  {
+   "id": "appear-flip-slow",
+   "categoria": "appear-and-vanish",
+   "arquivo": "appear-and-vanish/appear-flip-slow.m4a",
+   "descricao": "A panel turning over slowly, landing softly.",
+   "usar_para": [
+    "A big panel or page turning over",
+    "Before and after reveals",
+    "Considered reveals"
+   ],
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ],
+   "duracao": 0.437,
+   "sync_em": 0.407,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "flip-slow"
+  },
+  {
+   "id": "appear-materialise",
+   "categoria": "appear-and-vanish",
+   "arquivo": "appear-and-vanish/appear-materialise.m4a",
+   "descricao": "Something materialising: particles gathering in and settling.",
+   "usar_para": [
+    "An element appearing out of particles",
+    "A product or idea taking shape",
+    "Soft, magical entrances"
+   ],
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ],
+   "duracao": 1.209,
+   "sync_em": 0.026,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "materialise"
+  },
+  {
+   "id": "appear-poof",
+   "categoria": "appear-and-vanish",
+   "arquivo": "appear-and-vanish/appear-poof.m4a",
+   "descricao": "A poof: something vanishing in a puff of smoke, a few glints as it clears.",
+   "usar_para": [
+    "Something vanishing, magically",
+    "An icon or problem disappearing",
+    "A quick change of scene"
+   ],
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ],
+   "duracao": 0.62,
+   "sync_em": 0.026,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "poof"
+  },
+  {
+   "id": "transform-deflate",
+   "categoria": "shape-changes",
+   "arquivo": "shape-changes/transform-deflate.m4a",
+   "descricao": "Air going out of a balloon, its note falling, the neck fluttering.",
+   "usar_para": [
+    "A shape or balloon going flat",
+    "Deflated hopes, a let-down",
+    "Something losing air or value"
+   ],
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ],
+   "duracao": 0.891,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "deflate"
+  },
+  {
+   "id": "transform-empty",
+   "categoria": "shape-changes",
+   "arquivo": "shape-changes/transform-empty.m4a",
+   "descricao": "Water draining away with a gurgle.",
+   "usar_para": [
+    "Something running out or draining",
+    "Losing resources or time",
+    "Emptying a container"
+   ],
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ],
+   "duracao": 0.952,
+   "sync_em": 0.003,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "empty"
+  },
+  {
+   "id": "transform-fill",
+   "categoria": "shape-changes",
+   "arquivo": "shape-changes/transform-fill.m4a",
+   "descricao": "Water filling a glass, its note rising as it fills.",
+   "usar_para": [
+    "A container or bar filling up",
+    "Progress, capacity, a goal filling",
+    "Pouring a drink"
+   ],
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ],
+   "duracao": 1.218,
+   "sync_em": 0.003,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "fill"
+  },
+  {
+   "id": "transform-grow",
+   "categoria": "shape-changes",
+   "arquivo": "shape-changes/transform-grow.m4a",
+   "descricao": "Something growing: a swell of air rising, with a stretching creak.",
+   "usar_para": [
+    "A shape, icon or chart growing",
+    "Growth, progress, scaling up",
+    "A plant or an idea growing"
+   ],
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ],
+   "duracao": 0.693,
+   "sync_em": 0.003,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "grow"
+  },
+  {
+   "id": "transform-inflate",
+   "categoria": "shape-changes",
+   "arquivo": "shape-changes/transform-inflate.m4a",
+   "descricao": "A balloon inflating: air rushing in, its note rising.",
+   "usar_para": [
+    "A shape or balloon growing",
+    "Prices or numbers inflating",
+    "Something pumping up"
+   ],
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ],
+   "duracao": 0.891,
+   "sync_em": 0.001,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "inflate"
+  },
+  {
+   "id": "transform-morph",
+   "categoria": "shape-changes",
+   "arquivo": "shape-changes/transform-morph.m4a",
+   "descricao": "A soft, liquid morph: a shape reshaping itself.",
+   "usar_para": [
+    "A shape morphing into another",
+    "Icons transforming",
+    "Liquid, playful transitions"
+   ],
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ],
+   "duracao": 0.803,
+   "sync_em": 0.002,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "morph"
+  },
+  {
+   "id": "transform-shrink",
+   "categoria": "shape-changes",
+   "arquivo": "shape-changes/transform-shrink.m4a",
+   "descricao": "Something shrinking: air falling away, tucking in at the end.",
+   "usar_para": [
+    "A shape or icon shrinking away",
+    "Reducing costs, size or effort",
+    "Something tucking into a smaller space"
+   ],
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ],
+   "duracao": 0.604,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "shrink"
+  },
+  {
+   "id": "transform-stretch",
+   "categoria": "shape-changes",
+   "arquivo": "shape-changes/transform-stretch.m4a",
+   "descricao": "Rubber stretching, squeaking higher as it tightens.",
+   "usar_para": [
+    "A shape stretching or pulling",
+    "Elastic, bouncy animation",
+    "Stretching a budget or a resource"
+   ],
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ],
+   "duracao": 0.599,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "stretch"
+  },
+  {
+   "id": "click-button-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-button-firm.m4a",
+   "descricao": "A firm, bright button click with a little snap.",
+   "usar_para": [
+    "Pressing on-screen buttons",
+    "Submitting a form",
+    "Confirming a choice"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)"
+   ],
+   "duracao": 0.02,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "click-button-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-button-medium.m4a",
+   "descricao": "A clean, crisp button click.",
+   "usar_para": [
+    "Pressing on-screen buttons",
+    "Submitting a form",
+    "Confirming a choice"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)"
+   ],
+   "duracao": 0.017,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "click-button-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-button-soft.m4a",
+   "descricao": "A gentle, soft press of a small button.",
+   "usar_para": [
+    "Pressing on-screen buttons",
+    "Submitting a form",
+    "Confirming a choice"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music"
+   ],
+   "duracao": 0.016,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "click-clap-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-clap-firm.m4a",
+   "descricao": "A sharp, bright hand clap.",
+   "usar_para": [
+    "A moment of celebration or praise",
+    "Marking a beat or a start (a clapper)",
+    "Something done well"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)"
+   ],
+   "duracao": 0.149,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "clap firm"
+  },
+  {
+   "id": "click-clap-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-clap-medium.m4a",
+   "descricao": "A single hand clap.",
+   "usar_para": [
+    "A moment of celebration or praise",
+    "Marking a beat or a start (a clapper)",
+    "Something done well"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)"
+   ],
+   "duracao": 0.166,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "clap medium"
+  },
+  {
+   "id": "click-clap-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-clap-soft.m4a",
+   "descricao": "A soft, cupped hand clap.",
+   "usar_para": [
+    "A moment of celebration or praise",
+    "Marking a beat or a start (a clapper)",
+    "Something done well"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music"
+   ],
+   "duracao": 0.177,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "clap soft"
+  },
+  {
+   "id": "click-clip-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-clip-firm.m4a",
+   "descricao": "A firm metal clip snapping shut with a ring.",
+   "usar_para": [
+    "Attaching a file or a document",
+    "Pinning, clipping or fastening something",
+    "Paperwork being put together"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)"
+   ],
+   "duracao": 0.056,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "click-clip-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-clip-medium.m4a",
+   "descricao": "A spring clip snapping shut on paper.",
+   "usar_para": [
+    "Attaching a file or a document",
+    "Pinning, clipping or fastening something",
+    "Paperwork being put together"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)"
+   ],
+   "duracao": 0.049,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "click-clip-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-clip-soft.m4a",
+   "descricao": "A small clip closing gently on paper.",
+   "usar_para": [
+    "Attaching a file or a document",
+    "Pinning, clipping or fastening something",
+    "Paperwork being put together"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music"
+   ],
+   "duracao": 0.046,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "click-hover-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-hover-firm.m4a",
+   "descricao": "A small, crisp tick: a hover that wants to be noticed.",
+   "usar_para": [
+    "A cursor moving over buttons, links or menu items",
+    "A highlight stepping through a list",
+    "Scrolling past items, one tick each"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)",
+    "Clicks and presses (use button, tap or mouse)"
+   ],
+   "duracao": 0.015,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "hover firm"
+  },
+  {
+   "id": "click-hover-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-hover-medium.m4a",
+   "descricao": "A tiny, light tick for a hover or a highlight moving.",
+   "usar_para": [
+    "A cursor moving over buttons, links or menu items",
+    "A highlight stepping through a list",
+    "Scrolling past items, one tick each"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)",
+    "Clicks and presses (use button, tap or mouse)"
+   ],
+   "duracao": 0.014,
+   "sync_em": 0.008,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "hover medium"
+  },
+  {
+   "id": "click-hover-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-hover-soft.m4a",
+   "descricao": "The faintest tick: a cursor gliding over something.",
+   "usar_para": [
+    "A cursor moving over buttons, links or menu items",
+    "A highlight stepping through a list",
+    "Scrolling past items, one tick each"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music",
+    "Clicks and presses (use button, tap or mouse)"
+   ],
+   "duracao": 0.014,
+   "sync_em": 0.007,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "hover soft"
+  },
+  {
+   "id": "click-latch-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-latch-firm.m4a",
+   "descricao": "A firm latch: a sharp, definite click with a metal tick.",
+   "usar_para": [
+    "A push button locking in: record, power, select",
+    "A pen click: writing, signing, noting",
+    "Something set and held"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)"
+   ],
+   "duracao": 0.038,
+   "sync_em": 0.021,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "click-latch-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-latch-medium.m4a",
+   "descricao": "A push button catching: the spring, then a crisp click home.",
+   "usar_para": [
+    "A push button locking in: record, power, select",
+    "A pen click: writing, signing, noting",
+    "Something set and held"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)"
+   ],
+   "duracao": 0.038,
+   "sync_em": 0.021,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "click-latch-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-latch-soft.m4a",
+   "descricao": "A soft push button latching, like a pen clicking.",
+   "usar_para": [
+    "A push button locking in: record, power, select",
+    "A pen click: writing, signing, noting",
+    "Something set and held"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music"
+   ],
+   "duracao": 0.038,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "click-mouse-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-mouse-firm.m4a",
+   "descricao": "A firm, crisp mouse click with a clear release.",
+   "usar_para": [
+    "Mouse clicks in software demos",
+    "A cursor clicking a link or button",
+    "Selecting text or an item"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)",
+    "Touchscreen taps (use tap)"
+   ],
+   "duracao": 0.094,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "click-mouse-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-mouse-medium.m4a",
+   "descricao": "A natural mouse click: the press and its release.",
+   "usar_para": [
+    "Mouse clicks in software demos",
+    "A cursor clicking a link or button",
+    "Selecting text or an item"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)",
+    "Touchscreen taps (use tap)"
+   ],
+   "duracao": 0.092,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "click-mouse-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-mouse-soft.m4a",
+   "descricao": "A quiet mouse click, down and up.",
+   "usar_para": [
+    "Mouse clicks in software demos",
+    "A cursor clicking a link or button",
+    "Selecting text or an item"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music",
+    "Touchscreen taps (use tap)"
+   ],
+   "duracao": 0.099,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "click-rocker-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-rocker-firm.m4a",
+   "descricao": "A firm rocker switch: a solid, chunky clunk, like a power switch.",
+   "usar_para": [
+    "A power switch: on, off, start",
+    "A physical switch on a device",
+    "A firm, chunky change of state"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)"
+   ],
+   "duracao": 0.046,
+   "sync_em": 0.021,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "click-rocker-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-rocker-medium.m4a",
+   "descricao": "A rocker switch: it tips over and lands with a chunky clunk.",
+   "usar_para": [
+    "A power switch: on, off, start",
+    "A physical switch on a device",
+    "A firm, chunky change of state"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)"
+   ],
+   "duracao": 0.045,
+   "sync_em": 0.021,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "click-rocker-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-rocker-soft.m4a",
+   "descricao": "A soft rocker switch: a tip and a gentle clunk.",
+   "usar_para": [
+    "A power switch: on, off, start",
+    "A physical switch on a device",
+    "A firm, chunky change of state"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music"
+   ],
+   "duracao": 0.04,
+   "sync_em": 0.021,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "click-snap-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-snap-firm.m4a",
+   "descricao": "A sharp, bright finger snap.",
+   "usar_para": [
+    "Just like that: a change done in an instant",
+    "A transition on a snap of the fingers",
+    "An idea, a trick, a magic moment"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)"
+   ],
+   "duracao": 0.125,
+   "sync_em": 0.015,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "snap firm"
+  },
+  {
+   "id": "click-snap-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-snap-medium.m4a",
+   "descricao": "A clean finger snap.",
+   "usar_para": [
+    "Just like that: a change done in an instant",
+    "A transition on a snap of the fingers",
+    "An idea, a trick, a magic moment"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)"
+   ],
+   "duracao": 0.128,
+   "sync_em": 0.015,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "snap medium"
+  },
+  {
+   "id": "click-snap-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-snap-soft.m4a",
+   "descricao": "A soft finger snap.",
+   "usar_para": [
+    "Just like that: a change done in an instant",
+    "A transition on a snap of the fingers",
+    "An idea, a trick, a magic moment"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music"
+   ],
+   "duracao": 0.148,
+   "sync_em": 0.015,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "snap soft"
+  },
+  {
+   "id": "click-tap-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-tap-firm.m4a",
+   "descricao": "A firm, definite tap with a crisp tick.",
+   "usar_para": [
+    "Touchscreen taps in app demos",
+    "A finger tapping a card or tile",
+    "Selecting an item on a phone screen"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)",
+    "Mouse clicks (use mouse)"
+   ],
+   "duracao": 0.024,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "click-tap-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-tap-medium.m4a",
+   "descricao": "A clear tap on a screen, with a faint glassy tick.",
+   "usar_para": [
+    "Touchscreen taps in app demos",
+    "A finger tapping a card or tile",
+    "Selecting an item on a phone screen"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)",
+    "Mouse clicks (use mouse)"
+   ],
+   "duracao": 0.022,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "click-tap-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-tap-soft.m4a",
+   "descricao": "A soft fingertip tap on glass.",
+   "usar_para": [
+    "Touchscreen taps in app demos",
+    "A finger tapping a card or tile",
+    "Selecting an item on a phone screen"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music",
+    "Mouse clicks (use mouse)"
+   ],
+   "duracao": 0.016,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "click-toggle-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-toggle-firm.m4a",
+   "descricao": "A firm, definite switch: a crisp tick and snap.",
+   "usar_para": [
+    "Switching a setting on or off",
+    "Checkboxes and switches",
+    "Changing a mode"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)"
+   ],
+   "duracao": 0.044,
+   "sync_em": 0.031,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "click-toggle-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-toggle-medium.m4a",
+   "descricao": "A neat toggle: tick, then a clear snap into place.",
+   "usar_para": [
+    "Switching a setting on or off",
+    "Checkboxes and switches",
+    "Changing a mode"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)"
+   ],
+   "duracao": 0.042,
+   "sync_em": 0.031,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "click-toggle-off-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-toggle-off-firm.m4a",
+   "descricao": "A firm switch off: a crisp tick and a low, solid snap.",
+   "usar_para": [
+    "Turning a setting or feature off",
+    "A switch or checkbox going inactive",
+    "Disabling, muting, stopping"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)"
+   ],
+   "duracao": 0.054,
+   "sync_em": 0.035,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "click-toggle-off-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-toggle-off-medium.m4a",
+   "descricao": "A switch flipping off: tick, then a lower, duller snap.",
+   "usar_para": [
+    "Turning a setting or feature off",
+    "A switch or checkbox going inactive",
+    "Disabling, muting, stopping"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)"
+   ],
+   "duracao": 0.051,
+   "sync_em": 0.035,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "click-toggle-off-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-toggle-off-soft.m4a",
+   "descricao": "A soft switch flipping off: a tick falling into a dull snap.",
+   "usar_para": [
+    "Turning a setting or feature off",
+    "A switch or checkbox going inactive",
+    "Disabling, muting, stopping"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music"
+   ],
+   "duracao": 0.052,
+   "sync_em": 0.04,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "click-toggle-on-firm",
+   "categoria": "interface",
+   "arquivo": "interface/click-toggle-on-firm.m4a",
+   "descricao": "A firm switch on: a crisp tick and a bright, definite snap.",
+   "usar_para": [
+    "Turning a setting or feature on",
+    "A switch or checkbox becoming active",
+    "Enabling, unlocking, starting"
+   ],
+   "evitar": [
+    "Rapid repeated clicks (use soft or medium)"
+   ],
+   "duracao": 0.038,
+   "sync_em": 0.025,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "click-toggle-on-medium",
+   "categoria": "interface",
+   "arquivo": "interface/click-toggle-on-medium.m4a",
+   "descricao": "A switch flipping on: tick, then a bright snap above it.",
+   "usar_para": [
+    "Turning a setting or feature on",
+    "A switch or checkbox becoming active",
+    "Enabling, unlocking, starting"
+   ],
+   "evitar": [
+    "Very quiet, delicate moments (use soft)"
+   ],
+   "duracao": 0.034,
+   "sync_em": 0.025,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "click-toggle-on-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-toggle-on-soft.m4a",
+   "descricao": "A soft switch flipping on: a light tick rising into a snap.",
+   "usar_para": [
+    "Turning a setting or feature on",
+    "A switch or checkbox becoming active",
+    "Enabling, unlocking, starting"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music"
+   ],
+   "duracao": 0.038,
+   "sync_em": 0.03,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "click-toggle-soft",
+   "categoria": "interface",
+   "arquivo": "interface/click-toggle-soft.m4a",
+   "descricao": "A soft switch flip: a light tick, then a gentle snap.",
+   "usar_para": [
+    "Switching a setting on or off",
+    "Checkboxes and switches",
+    "Changing a mode"
+   ],
+   "evitar": [
+    "Moments that need to be noticed over music"
+   ],
+   "duracao": 0.046,
+   "sync_em": 0.037,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "keyboard-letter-firm",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-letter-firm.m4a",
+   "descricao": "A firm, crisp keypress.",
+   "usar_para": [
+    "One character appearing",
+    "A keyboard shortcut being pressed",
+    "Building your own typing to match on-screen text"
+   ],
+   "evitar": [
+    "Long runs of typing (use a typing run)",
+    "Quiet, delicate scenes"
+   ],
+   "duracao": 0.081,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "keyboard-letter-medium",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-letter-medium.m4a",
+   "descricao": "A natural keypress: the key going down and coming back up.",
+   "usar_para": [
+    "One character appearing",
+    "A keyboard shortcut being pressed",
+    "Building your own typing to match on-screen text"
+   ],
+   "evitar": [
+    "Long runs of typing (use a typing run)"
+   ],
+   "duracao": 0.083,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "keyboard-letter-soft",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-letter-soft.m4a",
+   "descricao": "A soft keypress and its quiet release.",
+   "usar_para": [
+    "One character appearing",
+    "A keyboard shortcut being pressed",
+    "Building your own typing to match on-screen text"
+   ],
+   "evitar": [
+    "Long runs of typing (use a typing run)"
+   ],
+   "duracao": 0.089,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "keyboard-return-firm",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-return-firm.m4a",
+   "descricao": "A firm, decisive Return: send, submit, done.",
+   "usar_para": [
+    "Pressing Enter to send, submit or search",
+    "The end of a typed line",
+    "A decisive keyboard moment"
+   ],
+   "evitar": [
+    "Long runs of typing (use a typing run)",
+    "Quiet, delicate scenes"
+   ],
+   "duracao": 0.09,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "keyboard-return-medium",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-return-medium.m4a",
+   "descricao": "A Return key press: a fuller knock with a hint of rattle.",
+   "usar_para": [
+    "Pressing Enter to send, submit or search",
+    "The end of a typed line",
+    "A decisive keyboard moment"
+   ],
+   "evitar": [
+    "Long runs of typing (use a typing run)"
+   ],
+   "duracao": 0.1,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "keyboard-return-soft",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-return-soft.m4a",
+   "descricao": "A soft press of the Return key, a little fuller than a letter.",
+   "usar_para": [
+    "Pressing Enter to send, submit or search",
+    "The end of a typed line",
+    "A decisive keyboard moment"
+   ],
+   "evitar": [
+    "Long runs of typing (use a typing run)"
+   ],
+   "duracao": 0.106,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "keyboard-space-firm",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-space-firm.m4a",
+   "descricao": "A firm space bar: a deeper knock and a clear release.",
+   "usar_para": [
+    "A word finishing in a typing animation",
+    "The gap between typed words",
+    "Single key moments with weight"
+   ],
+   "evitar": [
+    "Long runs of typing (use a typing run)",
+    "Quiet, delicate scenes"
+   ],
+   "duracao": 0.116,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "firm"
+  },
+  {
+   "id": "keyboard-space-medium",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-space-medium.m4a",
+   "descricao": "A space bar press with a hint of stabiliser rattle.",
+   "usar_para": [
+    "A word finishing in a typing animation",
+    "The gap between typed words",
+    "Single key moments with weight"
+   ],
+   "evitar": [
+    "Long runs of typing (use a typing run)"
+   ],
+   "duracao": 0.103,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "medium"
+  },
+  {
+   "id": "keyboard-space-soft",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-space-soft.m4a",
+   "descricao": "A soft space bar press, a little lower and wider than a key.",
+   "usar_para": [
+    "A word finishing in a typing animation",
+    "The gap between typed words",
+    "Single key moments with weight"
+   ],
+   "evitar": [
+    "Long runs of typing (use a typing run)"
+   ],
+   "duracao": 0.116,
+   "sync_em": 0.009,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "soft"
+  },
+  {
+   "id": "keyboard-typing-quick-long",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-typing-quick-long.m4a",
+   "descricao": "Quick typing for a full line of text.",
+   "usar_para": [
+    "Text being typed into a field or document",
+    "Typing that lasts about 3.1 seconds",
+    "Fast, confident typing: search boxes, chat"
+   ],
+   "evitar": [
+    "Text that appears all at once (use a single key or nothing)",
+    "Typing much longer than the run: loop a medium run instead of stretching it"
+   ],
+   "duracao": 3.152,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "typing"
+  },
+  {
+   "id": "keyboard-typing-quick-medium",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-typing-quick-medium.m4a",
+   "descricao": "Quick, fluent typing, about a short phrase.",
+   "usar_para": [
+    "Text being typed into a field or document",
+    "Typing that lasts about 1.6 seconds",
+    "Fast, confident typing: search boxes, chat"
+   ],
+   "evitar": [
+    "Text that appears all at once (use a single key or nothing)",
+    "Typing much longer than the run: loop a medium run instead of stretching it"
+   ],
+   "duracao": 1.656,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "typing"
+  },
+  {
+   "id": "keyboard-typing-quick-short",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-typing-quick-short.m4a",
+   "descricao": "A quick burst of typing: a word or two.",
+   "usar_para": [
+    "Text being typed into a field or document",
+    "Typing that lasts about 0.75 seconds",
+    "Fast, confident typing: search boxes, chat"
+   ],
+   "evitar": [
+    "Text that appears all at once (use a single key or nothing)",
+    "Typing much longer than the run: loop a medium run instead of stretching it"
+   ],
+   "duracao": 0.73,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "typing"
+  },
+  {
+   "id": "keyboard-typing-steady-long",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-typing-steady-long.m4a",
+   "descricao": "Steady typing for a full line of text.",
+   "usar_para": [
+    "Text being typed into a field or document",
+    "Typing that lasts about 3.1 seconds",
+    "Calm, deliberate typing: forms, documents"
+   ],
+   "evitar": [
+    "Text that appears all at once (use a single key or nothing)",
+    "Typing much longer than the run: loop a medium run instead of stretching it"
+   ],
+   "duracao": 3.076,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "typing"
+  },
+  {
+   "id": "keyboard-typing-steady-medium",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-typing-steady-medium.m4a",
+   "descricao": "Steady typing, about a short phrase.",
+   "usar_para": [
+    "Text being typed into a field or document",
+    "Typing that lasts about 1.6 seconds",
+    "Calm, deliberate typing: forms, documents"
+   ],
+   "evitar": [
+    "Text that appears all at once (use a single key or nothing)",
+    "Typing much longer than the run: loop a medium run instead of stretching it"
+   ],
+   "duracao": 1.532,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "typing"
+  },
+  {
+   "id": "keyboard-typing-steady-short",
+   "categoria": "keyboard",
+   "arquivo": "keyboard/keyboard-typing-steady-short.m4a",
+   "descricao": "A short burst of steady typing: a word or two.",
+   "usar_para": [
+    "Text being typed into a field or document",
+    "Typing that lasts about 0.75 seconds",
+    "Calm, deliberate typing: forms, documents"
+   ],
+   "evitar": [
+    "Text that appears all at once (use a single key or nothing)",
+    "Typing much longer than the run: loop a medium run instead of stretching it"
+   ],
+   "duracao": 0.788,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "typing"
+  },
+  {
+   "id": "writing-chalk-draw",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-chalk-draw.m4a",
+   "descricao": "Chalk on a blackboard, drawing a few long strokes.",
+   "usar_para": [
+    "Lines, arrows, shapes and diagrams being drawn",
+    "Whiteboard animations",
+    "Sketching an idea"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 1.008,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "chalk"
+  },
+  {
+   "id": "writing-chalk-tick",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-chalk-tick.m4a",
+   "descricao": "Chalk on a blackboard, ticking a box.",
+   "usar_para": [
+    "A checkbox being ticked",
+    "A to-do list done",
+    "Approving something"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 0.238,
+   "sync_em": 0.165,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "chalk"
+  },
+  {
+   "id": "writing-chalk-write",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-chalk-write.m4a",
+   "descricao": "Chalk on a blackboard, writing a word or two.",
+   "usar_para": [
+    "Handwritten words appearing",
+    "Whiteboard and hand-drawn explainers",
+    "Notes, signatures and labels being written"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 1.372,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "chalk"
+  },
+  {
+   "id": "writing-eraser",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-eraser.m4a",
+   "descricao": "A rubber eraser rubbing out pencil on paper.",
+   "usar_para": [
+    "Mistakes being rubbed out",
+    "Changing a plan or a sketch"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 0.764,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "eraser"
+  },
+  {
+   "id": "writing-highlighter",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-highlighter.m4a",
+   "descricao": "A highlighter swept across a line of text.",
+   "usar_para": [
+    "Highlighting a key line or number",
+    "Marking what matters"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 0.381,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "highlighter"
+  },
+  {
+   "id": "writing-marker-draw",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-marker-draw.m4a",
+   "descricao": "A marker on a whiteboard, drawing a few long strokes.",
+   "usar_para": [
+    "Lines, arrows, shapes and diagrams being drawn",
+    "Whiteboard animations",
+    "Sketching an idea"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 1.063,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "marker"
+  },
+  {
+   "id": "writing-marker-tick",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-marker-tick.m4a",
+   "descricao": "A marker on a whiteboard, ticking a box.",
+   "usar_para": [
+    "A checkbox being ticked",
+    "A to-do list done",
+    "Approving something"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 0.243,
+   "sync_em": 0.15,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "marker"
+  },
+  {
+   "id": "writing-marker-write",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-marker-write.m4a",
+   "descricao": "A marker on a whiteboard, writing a word or two.",
+   "usar_para": [
+    "Handwritten words appearing",
+    "Whiteboard and hand-drawn explainers",
+    "Notes, signatures and labels being written"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 1.341,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "marker"
+  },
+  {
+   "id": "writing-pen-draw",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-pen-draw.m4a",
+   "descricao": "A pen on paper, drawing a few long strokes.",
+   "usar_para": [
+    "Lines, arrows, shapes and diagrams being drawn",
+    "Whiteboard animations",
+    "Sketching an idea"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 1.269,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "pen"
+  },
+  {
+   "id": "writing-pen-tick",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-pen-tick.m4a",
+   "descricao": "A pen on paper, ticking a box.",
+   "usar_para": [
+    "A checkbox being ticked",
+    "A to-do list done",
+    "Approving something"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 0.242,
+   "sync_em": 0.155,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "pen"
+  },
+  {
+   "id": "writing-pen-write",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-pen-write.m4a",
+   "descricao": "A pen on paper, writing a word or two.",
+   "usar_para": [
+    "Handwritten words appearing",
+    "Whiteboard and hand-drawn explainers",
+    "Notes, signatures and labels being written"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 1.328,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "pen"
+  },
+  {
+   "id": "writing-pencil-draw",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-pencil-draw.m4a",
+   "descricao": "A pencil on paper, drawing a few long strokes.",
+   "usar_para": [
+    "Lines, arrows, shapes and diagrams being drawn",
+    "Whiteboard animations",
+    "Sketching an idea"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 1.448,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "pencil"
+  },
+  {
+   "id": "writing-pencil-tick",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-pencil-tick.m4a",
+   "descricao": "A pencil on paper, ticking a box.",
+   "usar_para": [
+    "A checkbox being ticked",
+    "A to-do list done",
+    "Approving something"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 0.242,
+   "sync_em": 0.157,
+   "encontra": "instant",
+   "sob_a_voz_db": -1,
+   "nivel": "pencil"
+  },
+  {
+   "id": "writing-pencil-write",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-pencil-write.m4a",
+   "descricao": "A pencil on paper, writing a word or two.",
+   "usar_para": [
+    "Handwritten words appearing",
+    "Whiteboard and hand-drawn explainers",
+    "Notes, signatures and labels being written"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 1.191,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "pencil"
+  },
+  {
+   "id": "writing-scribble",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-scribble.m4a",
+   "descricao": "A quick, busy pencil scribble.",
+   "usar_para": [
+    "Scribbling out a mistake",
+    "Busy brainstorming"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 0.997,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "scribble"
+  },
+  {
+   "id": "writing-wipe",
+   "categoria": "writing-and-drawing",
+   "arquivo": "writing-and-drawing/writing-wipe.m4a",
+   "descricao": "A whiteboard eraser wiping the board clean.",
+   "usar_para": [
+    "Clearing a whiteboard between scenes",
+    "A fresh start"
+   ],
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ],
+   "duracao": 0.736,
+   "sync_em": 0.001,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "wipe"
+  },
+  {
+   "id": "phone-keypad",
+   "categoria": "phone",
+   "arquivo": "phone/phone-keypad.m4a",
+   "descricao": "Six keys dialled, each with its keypad tone.",
+   "usar_para": [
+    "Dialling a number",
+    "Calling support or sales",
+    "Entering a code"
+   ],
+   "evitar": [
+    "On top of speech: its tones sit in the voice's range"
+   ],
+   "duracao": 1.116,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "keypad"
+  },
+  {
+   "id": "phone-ring-classic",
+   "categoria": "phone",
+   "arquivo": "phone/phone-ring-classic.m4a",
+   "descricao": "A classic telephone ring: bells rattling, twice.",
+   "usar_para": [
+    "A call in a classic or retro scene",
+    "Phones ringing off the hook: demand",
+    "Old ways of doing things"
+   ],
+   "evitar": [
+    "On top of speech: its tones sit in the voice's range"
+   ],
+   "duracao": 2.906,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "ring-classic"
+  },
+  {
+   "id": "phone-ring-modern",
+   "categoria": "phone",
+   "arquivo": "phone/phone-ring-modern.m4a",
+   "descricao": "A modern ringtone: a short kalimba figure, played twice.",
+   "usar_para": [
+    "An incoming call on a smartphone",
+    "Customers calling, sales and support",
+    "Answering, connecting"
+   ],
+   "evitar": [
+    "On top of speech: its tones sit in the voice's range"
+   ],
+   "duracao": 2.079,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "ring-modern"
+  },
+  {
+   "id": "phone-vibrate-hand",
+   "categoria": "phone",
+   "arquivo": "phone/phone-vibrate-hand.m4a",
+   "descricao": "A phone buzzing once in the hand.",
+   "usar_para": [
+    "A quick alert on a phone in hand",
+    "Haptic feedback in an app demo",
+    "A reminder"
+   ],
+   "evitar": [
+    "Scenes with no phone in them: a buzz reads as a phone"
+   ],
+   "duracao": 0.344,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "vibrate-hand"
+  },
+  {
+   "id": "phone-vibrate-table",
+   "categoria": "phone",
+   "arquivo": "phone/phone-vibrate-table.m4a",
+   "descricao": "A phone vibrating on a table, twice: a buzzing rattle.",
+   "usar_para": [
+    "A message or call arriving on a phone",
+    "Notifications piling up",
+    "A phone on a desk in a scene"
+   ],
+   "evitar": [
+    "Scenes with no phone in them: a buzz reads as a phone"
+   ],
+   "duracao": 1.116,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "vibrate-table"
+  },
+  {
+   "id": "mechanical-latch-heavy",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-latch-heavy.m4a",
+   "descricao": "A door latch catching: a slide and a solid click home.",
+   "usar_para": [
+    "A door, lid or panel closing",
+    "Something clicking securely into place",
+    "Locking a card or module in"
+   ],
+   "evitar": [
+    "Small, delicate UI (use light)"
+   ],
+   "duracao": 0.191,
+   "sync_em": 0.078,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "heavy"
+  },
+  {
+   "id": "mechanical-latch-light",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-latch-light.m4a",
+   "descricao": "A small latch clicking shut, like a cabinet door.",
+   "usar_para": [
+    "A door, lid or panel closing",
+    "Something clicking securely into place",
+    "Locking a card or module in"
+   ],
+   "evitar": [
+    "Big, heavy objects (use heavy)"
+   ],
+   "duracao": 0.112,
+   "sync_em": 0.052,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "light"
+  },
+  {
+   "id": "mechanical-lock-heavy",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-lock-heavy.m4a",
+   "descricao": "A deadbolt locking: pins turning, then a heavy clunk.",
+   "usar_para": [
+    "Security and privacy moments: data locked, account secured",
+    "Unlocking a feature",
+    "A padlock icon closing"
+   ],
+   "evitar": [
+    "Small, delicate UI (use light)"
+   ],
+   "duracao": 0.464,
+   "sync_em": 0.331,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "heavy"
+  },
+  {
+   "id": "mechanical-lock-light",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-lock-light.m4a",
+   "descricao": "A small lock turning: pin clicks and a light bolt.",
+   "usar_para": [
+    "Security and privacy moments: data locked, account secured",
+    "Unlocking a feature",
+    "A padlock icon closing"
+   ],
+   "evitar": [
+    "Big, heavy objects (use heavy)"
+   ],
+   "duracao": 0.293,
+   "sync_em": 0.21,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "light"
+  },
+  {
+   "id": "mechanical-ratchet-heavy",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-ratchet-heavy.m4a",
+   "descricao": "A heavier ratchet, slower and deeper clicks.",
+   "usar_para": [
+    "A dial or knob being turned",
+    "Values stepping up or down",
+    "Tightening or adjusting something"
+   ],
+   "evitar": [
+    "Small, delicate UI (use light)"
+   ],
+   "duracao": 0.532,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "heavy"
+  },
+  {
+   "id": "mechanical-ratchet-light",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-ratchet-light.m4a",
+   "descricao": "A small dial or ratchet turning, quick clicks.",
+   "usar_para": [
+    "A dial or knob being turned",
+    "Values stepping up or down",
+    "Tightening or adjusting something"
+   ],
+   "evitar": [
+    "Big, heavy objects (use heavy)"
+   ],
+   "duracao": 0.398,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "light"
+  },
+  {
+   "id": "mechanical-shutter-heavy",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-shutter-heavy.m4a",
+   "descricao": "A camera's mirror and shutter: a fuller, slower ka-chunk.",
+   "usar_para": [
+    "A screenshot or photo being taken",
+    "Capturing a moment, snapshot transitions",
+    "Camera icons"
+   ],
+   "evitar": [
+    "Small, delicate UI (use light)"
+   ],
+   "duracao": 0.184,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "heavy"
+  },
+  {
+   "id": "mechanical-shutter-light",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-shutter-light.m4a",
+   "descricao": "A compact camera shutter: a quick ka-chik.",
+   "usar_para": [
+    "A screenshot or photo being taken",
+    "Capturing a moment, snapshot transitions",
+    "Camera icons"
+   ],
+   "evitar": [
+    "Big, heavy objects (use heavy)"
+   ],
+   "duracao": 0.11,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "light"
+  },
+  {
+   "id": "mechanical-slider-heavy",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-slider-heavy.m4a",
+   "descricao": "A wooden drawer sliding shut.",
+   "usar_para": [
+    "A drawer or panel sliding shut",
+    "A slider control moving to its end",
+    "Sliding a tray or card into place"
+   ],
+   "evitar": [
+    "Small, delicate UI (use light)"
+   ],
+   "duracao": 0.734,
+   "sync_em": 0.615,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "heavy"
+  },
+  {
+   "id": "mechanical-slider-light",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-slider-light.m4a",
+   "descricao": "A small slider gliding to its stop.",
+   "usar_para": [
+    "A drawer or panel sliding shut",
+    "A slider control moving to its end",
+    "Sliding a tray or card into place"
+   ],
+   "evitar": [
+    "Big, heavy objects (use heavy)"
+   ],
+   "duracao": 0.439,
+   "sync_em": 0.424,
+   "encontra": "arrival",
+   "sob_a_voz_db": -2,
+   "nivel": "light"
+  },
+  {
+   "id": "mechanical-switch-heavy",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-switch-heavy.m4a",
+   "descricao": "A heavy switch thrown: a deep, solid clack.",
+   "usar_para": [
+    "A setting switched on",
+    "Lights or power coming on",
+    "A physical-feeling toggle"
+   ],
+   "evitar": [
+    "Small, delicate UI (use light)"
+   ],
+   "duracao": 0.099,
+   "sync_em": 0.021,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "heavy"
+  },
+  {
+   "id": "mechanical-switch-light",
+   "categoria": "mechanical",
+   "arquivo": "mechanical/mechanical-switch-light.m4a",
+   "descricao": "A light switch flicked: a crisp snap.",
+   "usar_para": [
+    "A setting switched on",
+    "Lights or power coming on",
+    "A physical-feeling toggle"
+   ],
+   "evitar": [
+    "Big, heavy objects (use heavy)"
+   ],
+   "duracao": 0.032,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "light"
+  },
+  {
+   "id": "foley-card-slide",
+   "categoria": "foley",
+   "arquivo": "foley/foley-card-slide.m4a",
+   "descricao": "A card slid across a table: a smooth little zip.",
+   "usar_para": [
+    "Cards dealt or placed",
+    "Business or credit cards",
+    "Tickets and labels",
+    "Something sliding into or across the frame"
+   ],
+   "evitar": [
+    "Single taps (use touch)"
+   ],
+   "duracao": 0.362,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "slide"
+  },
+  {
+   "id": "foley-card-touch",
+   "categoria": "foley",
+   "arquivo": "foley/foley-card-touch.m4a",
+   "descricao": "A stiff card set down: a short, crisp tack.",
+   "usar_para": [
+    "Cards dealt or placed",
+    "Business or credit cards",
+    "Tickets and labels",
+    "Something being touched, tapped or set down"
+   ],
+   "evitar": [
+    "Long movements (use slide)"
+   ],
+   "duracao": 0.05,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "touch"
+  },
+  {
+   "id": "foley-fabric-slide",
+   "categoria": "foley",
+   "arquivo": "foley/foley-fabric-slide.m4a",
+   "descricao": "A cloth swish, soft and airy.",
+   "usar_para": [
+    "Clothing, bags and soft products",
+    "Gentle, human touches",
+    "Covers lifting",
+    "Something sliding into or across the frame"
+   ],
+   "evitar": [
+    "Single taps (use touch)"
+   ],
+   "duracao": 0.44,
+   "sync_em": 0.006,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "slide"
+  },
+  {
+   "id": "foley-fabric-touch",
+   "categoria": "foley",
+   "arquivo": "foley/foley-fabric-touch.m4a",
+   "descricao": "A soft pat and rustle of fabric.",
+   "usar_para": [
+    "Clothing, bags and soft products",
+    "Gentle, human touches",
+    "Covers lifting",
+    "Something being touched, tapped or set down"
+   ],
+   "evitar": [
+    "Long movements (use slide)"
+   ],
+   "duracao": 0.265,
+   "sync_em": 0.022,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "touch"
+  },
+  {
+   "id": "foley-glass-slide",
+   "categoria": "foley",
+   "arquivo": "foley/foley-glass-slide.m4a",
+   "descricao": "Glass gliding on a surface, faintly singing.",
+   "usar_para": [
+    "Glasses and bottles",
+    "Glass screens and panels",
+    "A toast or a clink of success",
+    "Something sliding into or across the frame"
+   ],
+   "evitar": [
+    "Single taps (use touch)"
+   ],
+   "duracao": 0.645,
+   "sync_em": 0.002,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "slide"
+  },
+  {
+   "id": "foley-glass-touch",
+   "categoria": "foley",
+   "arquivo": "foley/foley-glass-touch.m4a",
+   "descricao": "A glass clink that rings out.",
+   "usar_para": [
+    "Glasses and bottles",
+    "Glass screens and panels",
+    "A toast or a clink of success",
+    "Something being touched, tapped or set down"
+   ],
+   "evitar": [
+    "Long movements (use slide)",
+    "Rapid repeats: it rings"
+   ],
+   "duracao": 0.47,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "touch"
+  },
+  {
+   "id": "foley-paper-slide",
+   "categoria": "foley",
+   "arquivo": "foley/foley-paper-slide.m4a",
+   "descricao": "Paper sliding across a desk: a soft, dry hiss.",
+   "usar_para": [
+    "Documents, letters and invoices appearing",
+    "Pages turning or notes being handled",
+    "Paperwork and forms",
+    "Something sliding into or across the frame"
+   ],
+   "evitar": [
+    "Single taps (use touch)"
+   ],
+   "duracao": 0.492,
+   "sync_em": 0.006,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "slide"
+  },
+  {
+   "id": "foley-paper-touch",
+   "categoria": "foley",
+   "arquivo": "foley/foley-paper-touch.m4a",
+   "descricao": "A sheet of paper handled: a quick crinkle and rustle.",
+   "usar_para": [
+    "Documents, letters and invoices appearing",
+    "Pages turning or notes being handled",
+    "Paperwork and forms",
+    "Something being touched, tapped or set down"
+   ],
+   "evitar": [
+    "Long movements (use slide)"
+   ],
+   "duracao": 0.31,
+   "sync_em": 0.022,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "touch"
+  },
+  {
+   "id": "foley-plastic-slide",
+   "categoria": "foley",
+   "arquivo": "foley/foley-plastic-slide.m4a",
+   "descricao": "Plastic sliding: a bright, light scrape.",
+   "usar_para": [
+    "Plastic products and packaging",
+    "Devices and cases",
+    "Containers opening or being set down",
+    "Something sliding into or across the frame"
+   ],
+   "evitar": [
+    "Single taps (use touch)"
+   ],
+   "duracao": 0.407,
+   "sync_em": 0.006,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "slide"
+  },
+  {
+   "id": "foley-plastic-touch",
+   "categoria": "foley",
+   "arquivo": "foley/foley-plastic-touch.m4a",
+   "descricao": "A hollow tap on plastic.",
+   "usar_para": [
+    "Plastic products and packaging",
+    "Devices and cases",
+    "Containers opening or being set down",
+    "Something being touched, tapped or set down"
+   ],
+   "evitar": [
+    "Long movements (use slide)"
+   ],
+   "duracao": 0.079,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "touch"
+  },
+  {
+   "id": "foley-wood-slide",
+   "categoria": "foley",
+   "arquivo": "foley/foley-wood-slide.m4a",
+   "descricao": "Wood sliding on wood: a grainy rub.",
+   "usar_para": [
+    "Wooden objects and furniture",
+    "Knocking on a surface",
+    "Natural, crafted products",
+    "Something sliding into or across the frame"
+   ],
+   "evitar": [
+    "Single taps (use touch)"
+   ],
+   "duracao": 0.585,
+   "sync_em": 0.01,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "slide"
+  },
+  {
+   "id": "foley-wood-touch",
+   "categoria": "foley",
+   "arquivo": "foley/foley-wood-touch.m4a",
+   "descricao": "A knuckle knock on wood.",
+   "usar_para": [
+    "Wooden objects and furniture",
+    "Knocking on a surface",
+    "Natural, crafted products",
+    "Something being touched, tapped or set down"
+   ],
+   "evitar": [
+    "Long movements (use slide)"
+   ],
+   "duracao": 0.128,
+   "sync_em": 0.012,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "touch"
+  },
+  {
+   "id": "props-book-close",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-book-close.m4a",
+   "descricao": "A book closing: a puff of air and a thud of its cover.",
+   "usar_para": [
+    "Closing a chapter or a case",
+    "Finished: done reading or learning",
+    "Education and books"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 0.204,
+   "sync_em": 0.052,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "book-close"
+  },
+  {
+   "id": "props-box-open",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-box-open.m4a",
+   "descricao": "A cardboard box opening: two flaps scraping and thumping open.",
+   "usar_para": [
+    "Unboxing a product",
+    "A delivery arriving",
+    "Opening something new"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 0.688,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "box-open"
+  },
+  {
+   "id": "props-doorbell",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-doorbell.m4a",
+   "descricao": "A doorbell: two chime bars, ding and dong.",
+   "usar_para": [
+    "Someone at the door: a visitor, a delivery",
+    "Opportunity knocking",
+    "Home and deliveries"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 1.712,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "doorbell"
+  },
+  {
+   "id": "props-drip",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-drip.m4a",
+   "descricao": "Water dripping into a basin: plink, plink.",
+   "usar_para": [
+    "A leak, a drip, waste",
+    "Water, plumbing and saving water",
+    "Time passing slowly"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 1.417,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "drip"
+  },
+  {
+   "id": "props-page-turn",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-page-turn.m4a",
+   "descricao": "A page turning: lifted at the corner, swung over and falling flat.",
+   "usar_para": [
+    "Turning to the next page or chapter",
+    "Reports, documents and guides",
+    "Moving on to the next step"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 0.54,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "page-turn"
+  },
+  {
+   "id": "props-scissors",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-scissors.m4a",
+   "descricao": "Scissors sliding and snipping through paper.",
+   "usar_para": [
+    "Cutting costs, prices or red tape",
+    "Cutting something out or to size",
+    "Crafts and making"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 0.19,
+   "sync_em": 0.158,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "scissors"
+  },
+  {
+   "id": "props-shop-bell",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-shop-bell.m4a",
+   "descricao": "A shop door bell: a small brass bell jingling on its spring.",
+   "usar_para": [
+    "A customer walking into a shop",
+    "Retail, small businesses and cafés",
+    "A new arrival"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 1.415,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "shop-bell"
+  },
+  {
+   "id": "props-splash",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-splash.m4a",
+   "descricao": "Something dropping into water: a plop, a splash and drops falling back.",
+   "usar_para": [
+    "Something dropping into water",
+    "Diving in, taking the plunge",
+    "Drinks, water and cleaning"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 0.673,
+   "sync_em": 0.013,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "splash"
+  },
+  {
+   "id": "props-tape",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-tape.m4a",
+   "descricao": "Sticky tape peeled off its roll in a quick, rising rip.",
+   "usar_para": [
+    "Packing and sealing a parcel",
+    "Fixing or sticking something together",
+    "Shipping and e-commerce"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 0.608,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "tape"
+  },
+  {
+   "id": "props-zip",
+   "categoria": "everyday-props",
+   "arquivo": "everyday-props/props-zip.m4a",
+   "descricao": "A zip pulled: its teeth clicking by, faster and faster.",
+   "usar_para": [
+    "Packing a bag, zipping up",
+    "Closing or securing something",
+    "Travel and clothing"
+   ],
+   "evitar": [
+    "Abstract ideas better shown with a UI or motion sound"
+   ],
+   "duracao": 0.611,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "zip"
+  },
+  {
+   "id": "notification-alert-clear",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-alert-clear.m4a",
+   "descricao": "A bright double ding: an alert.",
+   "usar_para": [
+    "A new alert or warning",
+    "A badge or banner calling attention",
+    "Reminders"
+   ],
+   "evitar": [
+    "Calm, reassuring moments",
+    "Quiet, delicate scenes (use soft)"
+   ],
+   "duracao": 0.657,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "clear"
+  },
+  {
+   "id": "notification-alert-soft",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-alert-soft.m4a",
+   "descricao": "A warm double note: something needs a look.",
+   "usar_para": [
+    "A new alert or warning",
+    "A badge or banner calling attention",
+    "Reminders"
+   ],
+   "evitar": [
+    "Calm, reassuring moments",
+    "Moments that must cut through loud music (use clear)"
+   ],
+   "duracao": 0.458,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "notification-attention-clear",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-attention-clear.m4a",
+   "descricao": "A single ringing chime.",
+   "usar_para": [
+    "Asking the viewer to look",
+    "A gentle prompt or tip",
+    "Knocking: someone's here, something new"
+   ],
+   "evitar": [
+    "Under busy music: it's gentle",
+    "Quiet, delicate scenes (use soft)"
+   ],
+   "duracao": 0.548,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "clear"
+  },
+  {
+   "id": "notification-attention-soft",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-attention-soft.m4a",
+   "descricao": "A knock-knock on wood.",
+   "usar_para": [
+    "Asking the viewer to look",
+    "A gentle prompt or tip",
+    "Knocking: someone's here, something new"
+   ],
+   "evitar": [
+    "Under busy music: it's gentle",
+    "Moments that must cut through loud music (use clear)"
+   ],
+   "duracao": 0.328,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "notification-error-clear",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-error-clear.m4a",
+   "descricao": "A clear, falling two-note chime: an error, without alarm.",
+   "usar_para": [
+    "A failed action or a wrong input",
+    "A cross or warning icon",
+    "Something that needs fixing"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Quiet, delicate scenes (use soft)"
+   ],
+   "duracao": 0.905,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "clear"
+  },
+  {
+   "id": "notification-error-soft",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-error-soft.m4a",
+   "descricao": "A soft, falling two-note marimba: something's not right, gently.",
+   "usar_para": [
+    "A failed action or a wrong input",
+    "A cross or warning icon",
+    "Something that needs fixing"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Moments that must cut through loud music (use clear)"
+   ],
+   "duracao": 0.567,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "notification-failure-deflate",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-failure-deflate.m4a",
+   "descricao": "Air whistling down, like a balloon letting go: a playful fail.",
+   "usar_para": [
+    "A wrong answer, a mistake or a failed attempt",
+    "A cross, a warning or something that didn't work",
+    "Before and after: the 'before' moment"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Serious errors that need urgency (use an alert)"
+   ],
+   "duracao": 0.541,
+   "sync_em": 0.002,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "failure"
+  },
+  {
+   "id": "notification-failure-fall",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-failure-fall.m4a",
+   "descricao": "Two bells falling a minor third: not quite.",
+   "usar_para": [
+    "A wrong answer, a mistake or a failed attempt",
+    "A cross, a warning or something that didn't work",
+    "Before and after: the 'before' moment"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Serious errors that need urgency (use an alert)"
+   ],
+   "duracao": 1.318,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "failure"
+  },
+  {
+   "id": "notification-failure-knock",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-failure-knock.m4a",
+   "descricao": "Two wooden knocks, the second lower: nope.",
+   "usar_para": [
+    "A wrong answer, a mistake or a failed attempt",
+    "A cross, a warning or something that didn't work",
+    "Before and after: the 'before' moment"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Serious errors that need urgency (use an alert)"
+   ],
+   "duracao": 0.318,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "failure"
+  },
+  {
+   "id": "notification-failure-low",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-failure-low.m4a",
+   "descricao": "A single low, soft note: a quiet no.",
+   "usar_para": [
+    "A wrong answer, a mistake or a failed attempt",
+    "A cross, a warning or something that didn't work",
+    "Before and after: the 'before' moment"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Serious errors that need urgency (use an alert)"
+   ],
+   "duracao": 0.703,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "failure"
+  },
+  {
+   "id": "notification-failure-minor",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-failure-minor.m4a",
+   "descricao": "A soft marimba chord falling in a minor key: a gentle letdown.",
+   "usar_para": [
+    "A wrong answer, a mistake or a failed attempt",
+    "A cross, a warning or something that didn't work",
+    "Before and after: the 'before' moment"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Serious errors that need urgency (use an alert)"
+   ],
+   "duracao": 0.748,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "failure"
+  },
+  {
+   "id": "notification-failure-pluck",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-failure-pluck.m4a",
+   "descricao": "A muted pluck falling a fourth: a dud.",
+   "usar_para": [
+    "A wrong answer, a mistake or a failed attempt",
+    "A cross, a warning or something that didn't work",
+    "Before and after: the 'before' moment"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Serious errors that need urgency (use an alert)"
+   ],
+   "duracao": 0.319,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "failure"
+  },
+  {
+   "id": "notification-failure-thud",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-failure-thud.m4a",
+   "descricao": "A dull, low bonk: that didn't work.",
+   "usar_para": [
+    "A wrong answer, a mistake or a failed attempt",
+    "A cross, a warning or something that didn't work",
+    "Before and after: the 'before' moment"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Serious errors that need urgency (use an alert)"
+   ],
+   "duracao": 0.982,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "failure"
+  },
+  {
+   "id": "notification-failure-wobble",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-failure-wobble.m4a",
+   "descricao": "A kalimba note bending down as it rings: womp.",
+   "usar_para": [
+    "A wrong answer, a mistake or a failed attempt",
+    "A cross, a warning or something that didn't work",
+    "Before and after: the 'before' moment"
+   ],
+   "evitar": [
+    "Positive moments",
+    "Serious errors that need urgency (use an alert)"
+   ],
+   "duracao": 0.535,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "failure"
+  },
+  {
+   "id": "notification-message-in-clear",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-message-in-clear.m4a",
+   "descricao": "A bubble and a bright ping: a message arrives.",
+   "usar_para": [
+    "A message or email arriving",
+    "A chat bubble appearing",
+    "A new notification on a phone"
+   ],
+   "evitar": [
+    "Sending (use message out)",
+    "Quiet, delicate scenes (use soft)"
+   ],
+   "duracao": 0.607,
+   "sync_em": 0.041,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "clear"
+  },
+  {
+   "id": "notification-message-in-soft",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-message-in-soft.m4a",
+   "descricao": "A little bubble and a warm note: a new message.",
+   "usar_para": [
+    "A message or email arriving",
+    "A chat bubble appearing",
+    "A new notification on a phone"
+   ],
+   "evitar": [
+    "Sending (use message out)",
+    "Moments that must cut through loud music (use clear)"
+   ],
+   "duracao": 0.423,
+   "sync_em": 0.046,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "notification-message-out-clear",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-message-out-clear.m4a",
+   "descricao": "A quick airy send with a bright little ping.",
+   "usar_para": [
+    "A message or email being sent",
+    "Sharing or posting",
+    "Something flying off to someone"
+   ],
+   "evitar": [
+    "Receiving (use message in)",
+    "Quiet, delicate scenes (use soft)"
+   ],
+   "duracao": 0.568,
+   "sync_em": 0.052,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "clear"
+  },
+  {
+   "id": "notification-message-out-soft",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-message-out-soft.m4a",
+   "descricao": "A soft puff of air with a small note: sent.",
+   "usar_para": [
+    "A message or email being sent",
+    "Sharing or posting",
+    "Something flying off to someone"
+   ],
+   "evitar": [
+    "Receiving (use message in)",
+    "Moments that must cut through loud music (use clear)"
+   ],
+   "duracao": 0.283,
+   "sync_em": 0.061,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "notification-success-bubble",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-bubble.m4a",
+   "descricao": "A bubble and two bright notes: a playful success.",
+   "usar_para": [
+    "A task done, a goal reached, a right answer",
+    "A tick, a badge or a reward appearing",
+    "Positive results and progress"
+   ],
+   "evitar": [
+    "Errors and warnings"
+   ],
+   "duracao": 0.636,
+   "sync_em": 0.045,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "success"
+  },
+  {
+   "id": "notification-success-chime",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-chime.m4a",
+   "descricao": "Two bells rising a fifth: a clear, bright success.",
+   "usar_para": [
+    "A task done, a goal reached, a right answer",
+    "A tick, a badge or a reward appearing",
+    "Positive results and progress"
+   ],
+   "evitar": [
+    "Errors and warnings"
+   ],
+   "duracao": 0.963,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "success"
+  },
+  {
+   "id": "notification-success-clear",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-clear.m4a",
+   "descricao": "A bright, rising three-note chime: success.",
+   "usar_para": [
+    "A task completed or a form submitted",
+    "A tick or checkmark appearing",
+    "Goals reached, positive results"
+   ],
+   "evitar": [
+    "Errors or warnings",
+    "Quiet, delicate scenes (use soft)"
+   ],
+   "duracao": 0.606,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "clear"
+  },
+  {
+   "id": "notification-success-ding-ding",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-ding-ding.m4a",
+   "descricao": "Two quick bell dings: correct!",
+   "usar_para": [
+    "A task done, a goal reached, a right answer",
+    "A tick, a badge or a reward appearing",
+    "Positive results and progress"
+   ],
+   "evitar": [
+    "Errors and warnings"
+   ],
+   "duracao": 0.987,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "success"
+  },
+  {
+   "id": "notification-success-fanfare",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-fanfare.m4a",
+   "descricao": "A little marimba ta-da: two quick chords, resolving.",
+   "usar_para": [
+    "A task done, a goal reached, a right answer",
+    "A tick, a badge or a reward appearing",
+    "Positive results and progress"
+   ],
+   "evitar": [
+    "Errors and warnings"
+   ],
+   "duracao": 0.524,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "success"
+  },
+  {
+   "id": "notification-success-flourish",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-flourish.m4a",
+   "descricao": "A fast marimba run up to a high, ringing note: achieved.",
+   "usar_para": [
+    "A task done, a goal reached, a right answer",
+    "A tick, a badge or a reward appearing",
+    "Positive results and progress"
+   ],
+   "evitar": [
+    "Errors and warnings"
+   ],
+   "duracao": 0.535,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "success"
+  },
+  {
+   "id": "notification-success-pluck",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-pluck.m4a",
+   "descricao": "A plucked string rising a fourth: a warm, simple yes.",
+   "usar_para": [
+    "A task done, a goal reached, a right answer",
+    "A tick, a badge or a reward appearing",
+    "Positive results and progress"
+   ],
+   "evitar": [
+    "Errors and warnings"
+   ],
+   "duracao": 1.161,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "success"
+  },
+  {
+   "id": "notification-success-soft",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-soft.m4a",
+   "descricao": "A warm, rising three-note marimba arpeggio: done.",
+   "usar_para": [
+    "A task completed or a form submitted",
+    "A tick or checkmark appearing",
+    "Goals reached, positive results"
+   ],
+   "evitar": [
+    "Errors or warnings",
+    "Moments that must cut through loud music (use clear)"
+   ],
+   "duracao": 0.53,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "notification-success-sparkle",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-sparkle.m4a",
+   "descricao": "A quick kalimba arpeggio up an octave, with a few glints: delight.",
+   "usar_para": [
+    "A task done, a goal reached, a right answer",
+    "A tick, a badge or a reward appearing",
+    "Positive results and progress"
+   ],
+   "evitar": [
+    "Errors and warnings"
+   ],
+   "duracao": 0.632,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "success"
+  },
+  {
+   "id": "notification-success-warm",
+   "categoria": "notifications",
+   "arquivo": "notifications/notification-success-warm.m4a",
+   "descricao": "A soft, rolled marimba chord: quietly done.",
+   "usar_para": [
+    "A task done, a goal reached, a right answer",
+    "A tick, a badge or a reward appearing",
+    "Positive results and progress"
+   ],
+   "evitar": [
+    "Errors and warnings"
+   ],
+   "duracao": 0.68,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "success"
+  },
+  {
+   "id": "tone-ding-high",
+   "categoria": "tones",
+   "arquivo": "tones/tone-ding-high.m4a",
+   "descricao": "A small bell's clear ding (E, high).",
+   "usar_para": [
+    "Highlighting a key point, a feature or a benefit",
+    "A tick, an answer or a result appearing",
+    "An idea: the lightbulb moment"
+   ],
+   "evitar": [
+    "Errors or warnings"
+   ],
+   "duracao": 0.812,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "ding"
+  },
+  {
+   "id": "tone-ding-low",
+   "categoria": "tones",
+   "arquivo": "tones/tone-ding-low.m4a",
+   "descricao": "A small bell's clear ding (G, low).",
+   "usar_para": [
+    "Highlighting a key point, a feature or a benefit",
+    "A tick, an answer or a result appearing",
+    "An idea: the lightbulb moment"
+   ],
+   "evitar": [
+    "Errors or warnings"
+   ],
+   "duracao": 1.14,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "ding"
+  },
+  {
+   "id": "tone-ding-mid",
+   "categoria": "tones",
+   "arquivo": "tones/tone-ding-mid.m4a",
+   "descricao": "A small bell's clear ding (C, middle).",
+   "usar_para": [
+    "Highlighting a key point, a feature or a benefit",
+    "A tick, an answer or a result appearing",
+    "An idea: the lightbulb moment"
+   ],
+   "evitar": [
+    "Errors or warnings"
+   ],
+   "duracao": 1.064,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "ding"
+  },
+  {
+   "id": "tone-step-1",
+   "categoria": "tones",
+   "arquivo": "tones/tone-step-1.m4a",
+   "descricao": "Step 1 of 5: a soft marimba note (C), each one higher.",
+   "usar_para": [
+    "Words, lines or list items appearing one by one: step 1 for the first, 2 for the second…",
+    "Bullet points and checklists building up",
+    "Icons or cards appearing in a row"
+   ],
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ],
+   "duracao": 0.513,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "step"
+  },
+  {
+   "id": "tone-step-2",
+   "categoria": "tones",
+   "arquivo": "tones/tone-step-2.m4a",
+   "descricao": "Step 2 of 5: a soft marimba note (E), each one higher.",
+   "usar_para": [
+    "Words, lines or list items appearing one by one: step 1 for the first, 2 for the second…",
+    "Bullet points and checklists building up",
+    "Icons or cards appearing in a row"
+   ],
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ],
+   "duracao": 0.445,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "step"
+  },
+  {
+   "id": "tone-step-3",
+   "categoria": "tones",
+   "arquivo": "tones/tone-step-3.m4a",
+   "descricao": "Step 3 of 5: a soft marimba note (G), each one higher.",
+   "usar_para": [
+    "Words, lines or list items appearing one by one: step 1 for the first, 2 for the second…",
+    "Bullet points and checklists building up",
+    "Icons or cards appearing in a row"
+   ],
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ],
+   "duracao": 0.403,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "step"
+  },
+  {
+   "id": "tone-step-4",
+   "categoria": "tones",
+   "arquivo": "tones/tone-step-4.m4a",
+   "descricao": "Step 4 of 5: a soft marimba note (A), each one higher.",
+   "usar_para": [
+    "Words, lines or list items appearing one by one: step 1 for the first, 2 for the second…",
+    "Bullet points and checklists building up",
+    "Icons or cards appearing in a row"
+   ],
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ],
+   "duracao": 0.372,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "step"
+  },
+  {
+   "id": "tone-step-5",
+   "categoria": "tones",
+   "arquivo": "tones/tone-step-5.m4a",
+   "descricao": "Step 5 of 5: a soft marimba note (C), each one higher.",
+   "usar_para": [
+    "Words, lines or list items appearing one by one: step 1 for the first, 2 for the second…",
+    "Bullet points and checklists building up",
+    "Icons or cards appearing in a row"
+   ],
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ],
+   "duracao": 0.347,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "step"
+  },
+  {
+   "id": "shimmer-long-bright",
+   "categoria": "shimmers",
+   "arquivo": "shimmers/shimmer-long-bright.m4a",
+   "descricao": "A long shimmer: a bright cloud of glassy glints.",
+   "usar_para": [
+    "Positive reveals: a result, a product, a logo",
+    "Elements lighting up or being highlighted",
+    "A slow, lingering reveal"
+   ],
+   "evitar": [
+    "Negative or serious moments",
+    "Fast edits"
+   ],
+   "duracao": 2.072,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "bright"
+  },
+  {
+   "id": "shimmer-long-soft",
+   "categoria": "shimmers",
+   "arquivo": "shimmers/shimmer-long-soft.m4a",
+   "descricao": "A long shimmer: a few soft, glassy glints that ring out gently.",
+   "usar_para": [
+    "Gentle highlights: a feature, a benefit, a tick",
+    "Elements lighting up or being highlighted",
+    "A slow, lingering reveal"
+   ],
+   "evitar": [
+    "Negative or serious moments",
+    "Fast edits"
+   ],
+   "duracao": 1.923,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "shimmer-long-sparkle",
+   "categoria": "shimmers",
+   "arquivo": "shimmers/shimmer-long-sparkle.m4a",
+   "descricao": "A long shimmer: a dense, tinkling sparkle, high and light.",
+   "usar_para": [
+    "Magic moments: something new, delightful or premium",
+    "Elements lighting up or being highlighted",
+    "A slow, lingering reveal"
+   ],
+   "evitar": [
+    "Negative or serious moments",
+    "Fast edits"
+   ],
+   "duracao": 1.854,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "sparkle"
+  },
+  {
+   "id": "shimmer-medium-bright",
+   "categoria": "shimmers",
+   "arquivo": "shimmers/shimmer-medium-bright.m4a",
+   "descricao": "A shimmer: a bright cloud of glassy glints.",
+   "usar_para": [
+    "Positive reveals: a result, a product, a logo",
+    "Elements lighting up or being highlighted",
+    "A quick highlight"
+   ],
+   "evitar": [
+    "Negative or serious moments"
+   ],
+   "duracao": 1.109,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "bright"
+  },
+  {
+   "id": "shimmer-medium-soft",
+   "categoria": "shimmers",
+   "arquivo": "shimmers/shimmer-medium-soft.m4a",
+   "descricao": "A shimmer: a few soft, glassy glints that ring out gently.",
+   "usar_para": [
+    "Gentle highlights: a feature, a benefit, a tick",
+    "Elements lighting up or being highlighted",
+    "A quick highlight"
+   ],
+   "evitar": [
+    "Negative or serious moments"
+   ],
+   "duracao": 1.13,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "shimmer-medium-sparkle",
+   "categoria": "shimmers",
+   "arquivo": "shimmers/shimmer-medium-sparkle.m4a",
+   "descricao": "A shimmer: a dense, tinkling sparkle, high and light.",
+   "usar_para": [
+    "Magic moments: something new, delightful or premium",
+    "Elements lighting up or being highlighted",
+    "A quick highlight"
+   ],
+   "evitar": [
+    "Negative or serious moments"
+   ],
+   "duracao": 1.105,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "sparkle"
+  },
+  {
+   "id": "shimmer-short-bright",
+   "categoria": "shimmers",
+   "arquivo": "shimmers/shimmer-short-bright.m4a",
+   "descricao": "A short shimmer: a bright cloud of glassy glints.",
+   "usar_para": [
+    "Positive reveals: a result, a product, a logo",
+    "Elements lighting up or being highlighted",
+    "A quick highlight"
+   ],
+   "evitar": [
+    "Negative or serious moments"
+   ],
+   "duracao": 0.511,
+   "sync_em": 0.013,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "bright"
+  },
+  {
+   "id": "shimmer-short-soft",
+   "categoria": "shimmers",
+   "arquivo": "shimmers/shimmer-short-soft.m4a",
+   "descricao": "A short shimmer: a few soft, glassy glints that ring out gently.",
+   "usar_para": [
+    "Gentle highlights: a feature, a benefit, a tick",
+    "Elements lighting up or being highlighted",
+    "A quick highlight"
+   ],
+   "evitar": [
+    "Negative or serious moments"
+   ],
+   "duracao": 0.478,
+   "sync_em": 0.012,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "soft"
+  },
+  {
+   "id": "shimmer-short-sparkle",
+   "categoria": "shimmers",
+   "arquivo": "shimmers/shimmer-short-sparkle.m4a",
+   "descricao": "A short shimmer: a dense, tinkling sparkle, high and light.",
+   "usar_para": [
+    "Magic moments: something new, delightful or premium",
+    "Elements lighting up or being highlighted",
+    "A quick highlight"
+   ],
+   "evitar": [
+    "Negative or serious moments"
+   ],
+   "duracao": 0.53,
+   "sync_em": 0.012,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "sparkle"
+  },
+  {
+   "id": "sting-airy-long",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-airy-long.m4a",
+   "descricao": "An airy sting: air swelling slowly into a soft bell and glass tones that hang in a big room.",
+   "usar_para": [
+    "Calm, caring brands: health, wellbeing, finance",
+    "Soft, elegant end cards",
+    "Reflective or hopeful endings",
+    "A logo that builds in over about a second"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 4.649,
+   "sync_em": 0.861,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "airy"
+  },
+  {
+   "id": "sting-airy-short",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-airy-short.m4a",
+   "descricao": "An airy sting: a breath into a soft bell over hanging glass tones.",
+   "usar_para": [
+    "Calm, caring brands: health, wellbeing, finance",
+    "Soft, elegant end cards",
+    "Reflective or hopeful endings",
+    "A logo that appears at once"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 3.14,
+   "sync_em": 0.148,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "airy"
+  },
+  {
+   "id": "sting-bold-long",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-bold-long.m4a",
+   "descricao": "A bold sting: air building into a deep drum hit and a struck chord in a big hall.",
+   "usar_para": [
+    "Energetic, confident brands",
+    "Big openings and launch films",
+    "A title card that should land hard",
+    "A logo that builds in over about a second"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice",
+    "Calm, softly spoken films"
+   ],
+   "duracao": 2.627,
+   "sync_em": 1.041,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "bold"
+  },
+  {
+   "id": "sting-bold-short",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-bold-short.m4a",
+   "descricao": "A bold sting: a quick pull of air into a deep drum, a knock and a struck chord.",
+   "usar_para": [
+    "Energetic, confident brands",
+    "Big openings and launch films",
+    "A title card that should land hard",
+    "A logo that appears at once"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice",
+    "Calm, softly spoken films"
+   ],
+   "duracao": 1.708,
+   "sync_em": 0.304,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "bold"
+  },
+  {
+   "id": "sting-bright-long",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-bright-long.m4a",
+   "descricao": "A bright sting: glints climbing into a bell chord and a long, glittering shimmer.",
+   "usar_para": [
+    "Premium or tech brands",
+    "A logo or product reveal that should sparkle",
+    "Launches and announcements",
+    "A logo that builds in over about a second"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 3.206,
+   "sync_em": 0.919,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "bright"
+  },
+  {
+   "id": "sting-bright-short",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-bright-short.m4a",
+   "descricao": "A bright sting: glass glints into a bell chord, with a shimmer trailing off.",
+   "usar_para": [
+    "Premium or tech brands",
+    "A logo or product reveal that should sparkle",
+    "Launches and announcements",
+    "A logo that appears at once"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 1.53,
+   "sync_em": 0.139,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "bright"
+  },
+  {
+   "id": "sting-minimal-long",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-minimal-long.m4a",
+   "descricao": "A minimal sting: a breath of air into a single bell over a soft low note.",
+   "usar_para": [
+    "Understated, elegant brands",
+    "A quiet end card",
+    "Calm films where a big sting would jar",
+    "A logo that builds in over about a second"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 2.222,
+   "sync_em": 0.797,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "minimal"
+  },
+  {
+   "id": "sting-minimal-short",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-minimal-short.m4a",
+   "descricao": "A minimal sting: two kalimba notes, rising.",
+   "usar_para": [
+    "Understated, elegant brands",
+    "A quiet end card",
+    "Calm films where a big sting would jar",
+    "A logo that appears at once"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 1.263,
+   "sync_em": 0.1,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "minimal"
+  },
+  {
+   "id": "sting-playful-long",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-playful-long.m4a",
+   "descricao": "A playful sting: plucked strings bouncing in like a ball, landing on a bright chord with a pop.",
+   "usar_para": [
+    "Fun, consumer and family brands",
+    "Apps, games and playful products",
+    "Light-hearted endings",
+    "A logo that builds in over about a second"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 2.028,
+   "sync_em": 0.871,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "playful"
+  },
+  {
+   "id": "sting-playful-short",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-playful-short.m4a",
+   "descricao": "A playful sting: two plucks bounce into a bright pluck chord with a wood block and a bubble.",
+   "usar_para": [
+    "Fun, consumer and family brands",
+    "Apps, games and playful products",
+    "Light-hearted endings",
+    "A logo that appears at once"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 1.237,
+   "sync_em": 0.131,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "playful"
+  },
+  {
+   "id": "sting-tech-long",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-tech-long.m4a",
+   "descricao": "A tech sting: a scan sweeping up through data pips into a clean digital chord and a sparkle.",
+   "usar_para": [
+    "Software, SaaS and tech brands",
+    "Product and feature launches",
+    "Data, AI and digital services",
+    "A logo that builds in over about a second"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 4.357,
+   "sync_em": 0.926,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "tech"
+  },
+  {
+   "id": "sting-tech-short",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-tech-short.m4a",
+   "descricao": "A tech sting: a few data pips and a flick of glitch into a clean digital chord.",
+   "usar_para": [
+    "Software, SaaS and tech brands",
+    "Product and feature launches",
+    "Data, AI and digital services",
+    "A logo that appears at once"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 3.143,
+   "sync_em": 0.155,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "tech"
+  },
+  {
+   "id": "sting-warm-long",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-warm-long.m4a",
+   "descricao": "A warm marimba sting: a gentle run up into a rich chord that rings and settles.",
+   "usar_para": [
+    "Friendly, human brands",
+    "A logo at the end of an explainer",
+    "Warm, reassuring endings",
+    "A logo that builds in over about a second"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 2.476,
+   "sync_em": 0.782,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "warm"
+  },
+  {
+   "id": "sting-warm-short",
+   "categoria": "logo-stings",
+   "arquivo": "logo-stings/sting-warm-short.m4a",
+   "descricao": "A warm marimba sting: a quick roll up into a rich, rounded chord.",
+   "usar_para": [
+    "Friendly, human brands",
+    "A logo at the end of an explainer",
+    "Warm, reassuring endings",
+    "A logo that appears at once"
+   ],
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ],
+   "duracao": 1.672,
+   "sync_em": 0.107,
+   "encontra": "instant",
+   "sob_a_voz_db": -6,
+   "nivel": "warm"
+  },
+  {
+   "id": "celebration-applause-big",
+   "categoria": "celebration",
+   "arquivo": "celebration/celebration-applause-big.m4a",
+   "descricao": "A crowd applauding in a hall.",
+   "usar_para": [
+    "A big achievement or launch",
+    "An award, an event, a stage",
+    "Celebrating with customers or a community"
+   ],
+   "evitar": [
+    "Serious or sensitive moments",
+    "On top of speech: it's busy"
+   ],
+   "duracao": 4.577,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -5,
+   "nivel": "applause-big"
+  },
+  {
+   "id": "celebration-applause-small",
+   "categoria": "celebration",
+   "arquivo": "celebration/celebration-applause-small.m4a",
+   "descricao": "A few people applauding warmly.",
+   "usar_para": [
+    "Praise for a person or a team",
+    "A small win or a milestone",
+    "A presentation or a demo ending"
+   ],
+   "evitar": [
+    "Serious or sensitive moments",
+    "On top of speech: it's busy"
+   ],
+   "duracao": 2.938,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -5,
+   "nivel": "applause-small"
+  },
+  {
+   "id": "celebration-confetti",
+   "categoria": "celebration",
+   "arquivo": "celebration/celebration-confetti.m4a",
+   "descricao": "A burst of confetti: a soft puff, then tiny paper flakes falling.",
+   "usar_para": [
+    "Confetti falling on screen",
+    "A success moment lingering",
+    "Celebrations and parties"
+   ],
+   "evitar": [
+    "Serious or sensitive moments",
+    "On top of speech: it's busy"
+   ],
+   "duracao": 2.05,
+   "sync_em": 0.166,
+   "encontra": "instant",
+   "sob_a_voz_db": -5,
+   "nivel": "confetti"
+  },
+  {
+   "id": "celebration-fireworks",
+   "categoria": "celebration",
+   "arquivo": "celebration/celebration-fireworks.m4a",
+   "descricao": "A firework: a rocket whistling up, a boom and a crackling shower.",
+   "usar_para": [
+    "Big launches and grand openings",
+    "New year, festivals and records",
+    "A grand finale"
+   ],
+   "evitar": [
+    "Serious or sensitive moments",
+    "On top of speech: it's busy"
+   ],
+   "duracao": 3.334,
+   "sync_em": 0.989,
+   "encontra": "instant",
+   "sob_a_voz_db": -5,
+   "nivel": "fireworks"
+  },
+  {
+   "id": "celebration-popper",
+   "categoria": "celebration",
+   "arquivo": "celebration/celebration-popper.m4a",
+   "descricao": "A party popper: a sharp pop and streamers rustling out.",
+   "usar_para": [
+    "Congratulations, birthdays, anniversaries",
+    "A celebration starting",
+    "A new feature or milestone unveiled"
+   ],
+   "evitar": [
+    "Serious or sensitive moments",
+    "On top of speech: it's busy"
+   ],
+   "duracao": 0.953,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -5,
+   "nivel": "popper"
+  },
+  {
+   "id": "time-alarm",
+   "categoria": "time",
+   "arquivo": "time/time-alarm.m4a",
+   "descricao": "An alarm clock ringing: a hammer rattling between two bells.",
+   "usar_para": [
+    "Wake-up calls, reminders",
+    "A problem demanding attention",
+    "Starting the day"
+   ],
+   "evitar": [
+    "Calm scenes",
+    "On top of speech: it's loud and long"
+   ],
+   "duracao": 2.314,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "alarm"
+  },
+  {
+   "id": "time-clock",
+   "categoria": "time",
+   "arquivo": "time/time-clock.m4a",
+   "descricao": "A clock ticking: tick, tock, once a second.",
+   "usar_para": [
+    "Time passing, waiting",
+    "Saving time, deadlines, schedules",
+    "Loop it under a scene"
+   ],
+   "evitar": [
+    "Moments that need no sense of time"
+   ],
+   "duracao": 3.037,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "clock"
+  },
+  {
+   "id": "time-clock-fast",
+   "categoria": "time",
+   "arquivo": "time/time-clock-fast.m4a",
+   "descricao": "Fast, urgent ticking: twice a second.",
+   "usar_para": [
+    "Time running out, urgency",
+    "A deadline approaching",
+    "Tension before a reveal"
+   ],
+   "evitar": [
+    "Moments that need no sense of time"
+   ],
+   "duracao": 2.534,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -1,
+   "nivel": "clock-fast"
+  },
+  {
+   "id": "time-countdown",
+   "categoria": "time",
+   "arquivo": "time/time-countdown.m4a",
+   "descricao": "A countdown: three beeps a second apart, then a higher beep on go.",
+   "usar_para": [
+    "3, 2, 1, go: launches and starts",
+    "Counting down to a reveal",
+    "Races and challenges"
+   ],
+   "evitar": [
+    "Moments that need no sense of time"
+   ],
+   "duracao": 3.604,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "countdown"
+  },
+  {
+   "id": "time-stopwatch",
+   "categoria": "time",
+   "arquivo": "time/time-stopwatch.m4a",
+   "descricao": "A stopwatch: a click to start, fine ticking, a click to stop.",
+   "usar_para": [
+    "Timing something: speed, records, races",
+    "How long something takes",
+    "Quick results"
+   ],
+   "evitar": [
+    "Moments that need no sense of time"
+   ],
+   "duracao": 1.628,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "stopwatch"
+  },
+  {
+   "id": "time-timer",
+   "categoria": "time",
+   "arquivo": "time/time-timer.m4a",
+   "descricao": "A timer finishing: a click and a bright ting-ting.",
+   "usar_para": [
+    "Time's up, done, ready",
+    "Cooking and processes finishing",
+    "A task complete"
+   ],
+   "evitar": [
+    "Moments that need no sense of time"
+   ],
+   "duracao": 1.102,
+   "sync_em": 0.139,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "timer"
+  },
+  {
+   "id": "money-card-tap",
+   "categoria": "money",
+   "arquivo": "money/money-card-tap.m4a",
+   "descricao": "A contactless card tapped on a reader, and its beep.",
+   "usar_para": [
+    "Paying by card or phone",
+    "Checkout and payments",
+    "A transaction approved"
+   ],
+   "evitar": [
+    "Abstract money moments that are better as a chart or a number (use data sounds)"
+   ],
+   "duracao": 0.274,
+   "sync_em": 0.113,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "card-tap"
+  },
+  {
+   "id": "money-coin-drop",
+   "categoria": "money",
+   "arquivo": "money/money-coin-drop.m4a",
+   "descricao": "A coin dropped on a table: it rings, bounces and rattles flat.",
+   "usar_para": [
+    "A saving or a small payment",
+    "Tips, change, a coin of the realm",
+    "One coin landing on a graph or pile"
+   ],
+   "evitar": [
+    "Abstract money moments that are better as a chart or a number (use data sounds)"
+   ],
+   "duracao": 0.681,
+   "sync_em": 0.01,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "coin-drop"
+  },
+  {
+   "id": "money-coin-spin",
+   "categoria": "money",
+   "arquivo": "money/money-coin-spin.m4a",
+   "descricao": "A coin spinning on a table, rattling faster until it lies still.",
+   "usar_para": [
+    "A decision hanging: a coin toss",
+    "Money in motion",
+    "Waiting for a result"
+   ],
+   "evitar": [
+    "Abstract money moments that are better as a chart or a number (use data sounds)"
+   ],
+   "duracao": 2.065,
+   "sync_em": 1.672,
+   "encontra": "arrival",
+   "sob_a_voz_db": -3,
+   "nivel": "coin-spin"
+  },
+  {
+   "id": "money-coin-stack",
+   "categoria": "money",
+   "arquivo": "money/money-coin-stack.m4a",
+   "descricao": "Coins set down on a stack, one by one: short, dry chinks.",
+   "usar_para": [
+    "Savings growing step by step",
+    "Counting coins, adding up",
+    "A stack chart rising"
+   ],
+   "evitar": [
+    "Abstract money moments that are better as a chart or a number (use data sounds)"
+   ],
+   "duracao": 0.865,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "coin-stack"
+  },
+  {
+   "id": "money-coins-pour",
+   "categoria": "money",
+   "arquivo": "money/money-coins-pour.m4a",
+   "descricao": "A handful of coins poured onto a pile: a dense, short clatter.",
+   "usar_para": [
+    "Savings, revenue or rewards piling up",
+    "A jackpot or a big win",
+    "Money flowing in"
+   ],
+   "evitar": [
+    "Abstract money moments that are better as a chart or a number (use data sounds)"
+   ],
+   "duracao": 1.125,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "coins-pour"
+  },
+  {
+   "id": "money-notes",
+   "categoria": "money",
+   "arquivo": "money/money-notes.m4a",
+   "descricao": "Banknotes being counted, flicked through one by one.",
+   "usar_para": [
+    "Counting money, cash payments",
+    "Wages, budgets and costs",
+    "Saving up"
+   ],
+   "evitar": [
+    "Abstract money moments that are better as a chart or a number (use data sounds)"
+   ],
+   "duracao": 0.808,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -3,
+   "nivel": "notes"
+  },
+  {
+   "id": "money-register",
+   "categoria": "money",
+   "arquivo": "money/money-register.m4a",
+   "descricao": "A cash register: a key, the bell's ching and the drawer sliding open.",
+   "usar_para": [
+    "A sale made, revenue in",
+    "Ka-ching: profit, pricing and offers",
+    "Shops and retail"
+   ],
+   "evitar": [
+    "Abstract money moments that are better as a chart or a number (use data sounds)"
+   ],
+   "duracao": 0.912,
+   "sync_em": 0.093,
+   "encontra": "instant",
+   "sob_a_voz_db": -3,
+   "nivel": "register"
+  },
+  {
+   "id": "digital-blip-clear",
+   "categoria": "digital",
+   "arquivo": "digital/digital-blip-clear.m4a",
+   "descricao": "A clean, bright blip.",
+   "usar_para": [
+    "Small digital events: a data point, a selection",
+    "A cursor or highlight moving between items",
+    "Status changes"
+   ],
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Quiet, delicate scenes (use subtle)"
+   ],
+   "duracao": 0.163,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "clear"
+  },
+  {
+   "id": "digital-blip-subtle",
+   "categoria": "digital",
+   "arquivo": "digital/digital-blip-subtle.m4a",
+   "descricao": "A soft, low digital blip.",
+   "usar_para": [
+    "Small digital events: a data point, a selection",
+    "A cursor or highlight moving between items",
+    "Status changes"
+   ],
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Moments that must cut through music (use clear)"
+   ],
+   "duracao": 0.137,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "subtle"
+  },
+  {
+   "id": "digital-breach",
+   "categoria": "digital",
+   "arquivo": "digital/digital-breach.m4a",
+   "descricao": "A security breach: an urgent two-tone alarm, three times.",
+   "usar_para": [
+    "A security breach or threat detected",
+    "A system alert or alarm",
+    "Something urgent going wrong"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes"
+   ],
+   "duracao": 0.924,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "alert"
+  },
+  {
+   "id": "digital-corrupt",
+   "categoria": "digital",
+   "arquivo": "digital/digital-corrupt.m4a",
+   "descricao": "Data corrupting: a slice of data stuttering, crushed and smeared.",
+   "usar_para": [
+    "A data error or a corrupted file",
+    "A screen or text breaking up",
+    "Glitch transitions"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes",
+    "On top of speech: its noise masks the voice"
+   ],
+   "duracao": 0.649,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -4,
+   "nivel": "glitch"
+  },
+  {
+   "id": "digital-decrypt",
+   "categoria": "digital",
+   "arquivo": "digital/digital-decrypt.m4a",
+   "descricao": "Decrypted: a scramble slowing and resolving into a clean, rising chime.",
+   "usar_para": [
+    "Decrypted, unlocked, access granted",
+    "A password cracked or a code solved",
+    "Data made safe"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes"
+   ],
+   "duracao": 1.262,
+   "sync_em": 0.659,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "glitch"
+  },
+  {
+   "id": "digital-denied",
+   "categoria": "digital",
+   "arquivo": "digital/digital-denied.m4a",
+   "descricao": "Access denied: two short, low buzzes.",
+   "usar_para": [
+    "Access denied, a wrong password, a blocked action",
+    "A security block or firewall",
+    "A rejected payment or login"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes"
+   ],
+   "duracao": 0.35,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "alert"
+  },
+  {
+   "id": "digital-glitch-clear",
+   "categoria": "digital",
+   "arquivo": "digital/digital-glitch-clear.m4a",
+   "descricao": "A crisp little glitch, stepping in pitch.",
+   "usar_para": [
+    "A digital error or interference",
+    "A screen or text glitching",
+    "Switching between digital states"
+   ],
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Quiet, delicate scenes (use subtle)"
+   ],
+   "duracao": 0.24,
+   "sync_em": 0.018,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "clear"
+  },
+  {
+   "id": "digital-glitch-subtle",
+   "categoria": "digital",
+   "arquivo": "digital/digital-glitch-subtle.m4a",
+   "descricao": "A gentle, clean stutter.",
+   "usar_para": [
+    "A digital error or interference",
+    "A screen or text glitching",
+    "Switching between digital states"
+   ],
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Moments that must cut through music (use clear)"
+   ],
+   "duracao": 0.164,
+   "sync_em": 0.02,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "subtle"
+  },
+  {
+   "id": "digital-hacker",
+   "categoria": "digital",
+   "arquivo": "digital/digital-hacker.m4a",
+   "descricao": "Hacker chatter: a terminal pouring out data in tiny ticks and blips.",
+   "usar_para": [
+    "Hacking, code running, a terminal at work",
+    "Data being extracted or analysed",
+    "Cyber security scenes"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes",
+    "On top of speech: its noise masks the voice"
+   ],
+   "duracao": 1.569,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -4,
+   "nivel": "glitch"
+  },
+  {
+   "id": "digital-interference",
+   "categoria": "digital",
+   "arquivo": "digital/digital-interference.m4a",
+   "descricao": "Electrical interference: a buzz stuttering on and off with crackle.",
+   "usar_para": [
+    "A signal being disrupted or hacked",
+    "Faulty electronics or a power problem",
+    "Tension in a tech scene"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes",
+    "On top of speech: its noise masks the voice"
+   ],
+   "duracao": 0.866,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -4,
+   "nivel": "glitch"
+  },
+  {
+   "id": "digital-power-down",
+   "categoria": "digital",
+   "arquivo": "digital/digital-power-down.m4a",
+   "descricao": "A device powering down: a click, then its hum sinking away.",
+   "usar_para": [
+    "A device or screen switching off",
+    "Shutting down, ending a session",
+    "Losing power, running out"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes"
+   ],
+   "duracao": 0.882,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "power"
+  },
+  {
+   "id": "digital-power-up",
+   "categoria": "digital",
+   "arquivo": "digital/digital-power-up.m4a",
+   "descricao": "A device powering up: a click, its hum rising, a ping when it's ready.",
+   "usar_para": [
+    "A device or screen switching on",
+    "A system starting up, going live",
+    "Energy, launch, getting going"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes"
+   ],
+   "duracao": 1.131,
+   "sync_em": 0,
+   "encontra": "instant",
+   "sob_a_voz_db": -4,
+   "nivel": "power"
+  },
+  {
+   "id": "digital-process-clear",
+   "categoria": "digital",
+   "arquivo": "digital/digital-process-clear.m4a",
+   "descricao": "Busy processing: a bright, steady run of pips.",
+   "usar_para": [
+    "Something loading or computing",
+    "Data being processed",
+    "AI or automation at work"
+   ],
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Quiet, delicate scenes (use subtle)"
+   ],
+   "duracao": 1.098,
+   "sync_em": 0.071,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "clear"
+  },
+  {
+   "id": "digital-process-subtle",
+   "categoria": "digital",
+   "arquivo": "digital/digital-process-subtle.m4a",
+   "descricao": "Quiet processing: a soft run of tiny pips.",
+   "usar_para": [
+    "Something loading or computing",
+    "Data being processed",
+    "AI or automation at work"
+   ],
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Moments that must cut through music (use clear)"
+   ],
+   "duracao": 1.119,
+   "sync_em": 0.093,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "subtle"
+  },
+  {
+   "id": "digital-radio",
+   "categoria": "digital",
+   "arquivo": "digital/digital-radio.m4a",
+   "descricao": "A radio being tuned: static, whistles sweeping past, snatches of stations.",
+   "usar_para": [
+    "Searching for a signal, scanning channels",
+    "Retro or broadcast moments",
+    "Something tuning in to the right answer"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes",
+    "On top of speech: its noise masks the voice"
+   ],
+   "duracao": 1.625,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -4,
+   "nivel": "glitch"
+  },
+  {
+   "id": "digital-scan-clear",
+   "categoria": "digital",
+   "arquivo": "digital/digital-scan-clear.m4a",
+   "descricao": "A clean scan: a defined tone gliding up, pulsing.",
+   "usar_para": [
+    "Scanning a document, face or code",
+    "A progress sweep or a search",
+    "Analysing or reading data"
+   ],
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Quiet, delicate scenes (use subtle)"
+   ],
+   "duracao": 0.837,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "clear"
+  },
+  {
+   "id": "digital-scan-subtle",
+   "categoria": "digital",
+   "arquivo": "digital/digital-scan-subtle.m4a",
+   "descricao": "A soft scan: a gentle tone gliding up with slow pulses.",
+   "usar_para": [
+    "Scanning a document, face or code",
+    "A progress sweep or a search",
+    "Analysing or reading data"
+   ],
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Moments that must cut through music (use clear)"
+   ],
+   "duracao": 0.841,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "subtle"
+  },
+  {
+   "id": "digital-scramble",
+   "categoria": "digital",
+   "arquivo": "digital/digital-scramble.m4a",
+   "descricao": "Scrambling: rapid random pips, like text decoding.",
+   "usar_para": [
+    "Text or code decoding or scrambling",
+    "Passwords and encryption",
+    "Data being shuffled"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes",
+    "On top of speech: its noise masks the voice"
+   ],
+   "duracao": 0.955,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -4,
+   "nivel": "glitch"
+  },
+  {
+   "id": "digital-signal-drop",
+   "categoria": "digital",
+   "arquivo": "digital/digital-signal-drop.m4a",
+   "descricao": "A signal failing: a tone stuttering, sagging and cutting out.",
+   "usar_para": [
+    "A connection lost: a call, a stream, a network",
+    "Something switching off or failing",
+    "The moment before a cut to black"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes"
+   ],
+   "duracao": 0.793,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -4,
+   "nivel": "glitch"
+  },
+  {
+   "id": "digital-static",
+   "categoria": "digital",
+   "arquivo": "digital/digital-static.m4a",
+   "descricao": "A burst of TV static: bright snow with a faint buzz in it.",
+   "usar_para": [
+    "A screen fuzzing or switching channel",
+    "A glitchy transition between scenes",
+    "Lost signal or old technology"
+   ],
+   "evitar": [
+    "Calm, natural or friendly scenes",
+    "On top of speech: its noise masks the voice"
+   ],
+   "duracao": 0.646,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -4,
+   "nivel": "glitch"
+  },
+  {
+   "id": "data-bar-grow",
+   "categoria": "data",
+   "arquivo": "data/data-bar-grow.m4a",
+   "descricao": "A quick upward swish that lands on a tick: a bar growing to its value.",
+   "usar_para": [
+    "A bar in a chart growing",
+    "A level meter rising",
+    "A value being set"
+   ],
+   "evitar": [
+    "Things that aren't data (use whooshes, pops or shimmers)"
+   ],
+   "duracao": 0.35,
+   "sync_em": 0.328,
+   "encontra": "arrival",
+   "sob_a_voz_db": -2,
+   "nivel": "bar"
+  },
+  {
+   "id": "data-chart-reveal",
+   "categoria": "data",
+   "arquivo": "data/data-chart-reveal.m4a",
+   "descricao": "A soft swell with a few glints: a chart appearing.",
+   "usar_para": [
+    "A chart or graph appearing",
+    "A dashboard revealing",
+    "A set of results arriving"
+   ],
+   "evitar": [
+    "Things that aren't data (use whooshes, pops or shimmers)"
+   ],
+   "duracao": 0.833,
+   "sync_em": 0.007,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "chart"
+  },
+  {
+   "id": "data-countup-long",
+   "categoria": "data",
+   "arquivo": "data/data-countup-long.m4a",
+   "descricao": "A long count-up of about 2.2 seconds.",
+   "usar_para": [
+    "A statistic counting up to its value",
+    "A percentage climbing",
+    "A price or total adding up"
+   ],
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ],
+   "duracao": 2.219,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "countup"
+  },
+  {
+   "id": "data-countup-medium",
+   "categoria": "data",
+   "arquivo": "data/data-countup-medium.m4a",
+   "descricao": "A count-up of about 1.2 seconds: ticks that speed up and settle.",
+   "usar_para": [
+    "A statistic counting up to its value",
+    "A percentage climbing",
+    "A price or total adding up"
+   ],
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ],
+   "duracao": 1.222,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "countup"
+  },
+  {
+   "id": "data-countup-short",
+   "categoria": "data",
+   "arquivo": "data/data-countup-short.m4a",
+   "descricao": "A short count-up: ticks that speed up and settle, about 0.6 seconds.",
+   "usar_para": [
+    "A statistic counting up to its value",
+    "A percentage climbing",
+    "A price or total adding up"
+   ],
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ],
+   "duracao": 0.621,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "countup"
+  },
+  {
+   "id": "data-decrease-long",
+   "categoria": "data",
+   "arquivo": "data/data-decrease-long.m4a",
+   "descricao": "A long count-down of about 2.2 seconds.",
+   "usar_para": [
+    "A cost, price or time coming down",
+    "Risks, errors or waste falling",
+    "Counting down to zero"
+   ],
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ],
+   "duracao": 2.221,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "decrease"
+  },
+  {
+   "id": "data-decrease-medium",
+   "categoria": "data",
+   "arquivo": "data/data-decrease-medium.m4a",
+   "descricao": "A count-down of about 1.2 seconds: a value easing down.",
+   "usar_para": [
+    "A cost, price or time coming down",
+    "Risks, errors or waste falling",
+    "Counting down to zero"
+   ],
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ],
+   "duracao": 1.221,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "decrease"
+  },
+  {
+   "id": "data-decrease-short",
+   "categoria": "data",
+   "arquivo": "data/data-decrease-short.m4a",
+   "descricao": "A short count-down: ticks that speed up and settle, falling a little, about 0.6 seconds.",
+   "usar_para": [
+    "A cost, price or time coming down",
+    "Risks, errors or waste falling",
+    "Counting down to zero"
+   ],
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ],
+   "duracao": 0.62,
+   "sync_em": 0,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "decrease"
+  },
+  {
+   "id": "data-number-land",
+   "categoria": "data",
+   "arquivo": "data/data-number-land.m4a",
+   "descricao": "A woody knock with a small, bright ping: a number landing.",
+   "usar_para": [
+    "The final number of a count-up landing",
+    "A key figure appearing",
+    "A result confirmed"
+   ],
+   "evitar": [
+    "Things that aren't data (use whooshes, pops or shimmers)"
+   ],
+   "duracao": 0.233,
+   "sync_em": 0.011,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "land"
+  },
+  {
+   "id": "data-progress-long",
+   "categoria": "data",
+   "arquivo": "data/data-progress-long.m4a",
+   "descricao": "A two-second progress fill.",
+   "usar_para": [
+    "A progress bar filling",
+    "Loading or uploading",
+    "A goal being reached"
+   ],
+   "evitar": [
+    "Things that aren't data (use whooshes, pops or shimmers)"
+   ],
+   "duracao": 1.976,
+   "sync_em": 0.008,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "progress"
+  },
+  {
+   "id": "data-progress-short",
+   "categoria": "data",
+   "arquivo": "data/data-progress-short.m4a",
+   "descricao": "A one-second progress fill: rising air with soft ticks filling in.",
+   "usar_para": [
+    "A progress bar filling",
+    "Loading or uploading",
+    "A goal being reached"
+   ],
+   "evitar": [
+    "Things that aren't data (use whooshes, pops or shimmers)"
+   ],
+   "duracao": 0.992,
+   "sync_em": 0.007,
+   "encontra": "action-start",
+   "sob_a_voz_db": -2,
+   "nivel": "progress"
+  },
+  {
+   "id": "data-tick",
+   "categoria": "data",
+   "arquivo": "data/data-tick.m4a",
+   "descricao": "A single soft, woody tick: one step of a number changing.",
+   "usar_para": [
+    "A number stepping up or down",
+    "Each value of a counter (repeat it, a little varied)",
+    "Chart points appearing one by one"
+   ],
+   "evitar": [
+    "Long counts (use a count-up run)"
+   ],
+   "duracao": 0.018,
+   "sync_em": 0.008,
+   "encontra": "instant",
+   "sob_a_voz_db": -2,
+   "nivel": "tick"
+  }
+ ]
+}

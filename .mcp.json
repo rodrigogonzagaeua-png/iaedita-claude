@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "iaedita": {
+      "type": "http",
+      "url": "https://editor-rg.santosperesraquel4.workers.dev/mcp"
+    }
+  }
+}

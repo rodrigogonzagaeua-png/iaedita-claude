@@ -1,0 +1,122 @@
+[
+ {
+  "nome": "motivacional",
+  "arquivo": "motivacional.m4a",
+  "clima": [
+   "motivacional",
+   "inspirador",
+   "conquista",
+   "superação",
+   "positivo",
+   "vendas"
+  ],
+  "energia": "alta",
+  "bpm": 116,
+  "duracao_s": 66.21,
+  "descricao": "Pop eletrônico inspirador: bumbo 4 por tempo, palmas, baixo em colcheias e acordes maiores (I-V-vi-IV). Para conquista, virada de vida, chamada para ação.",
+  "volume_sugerido": 0.5,
+  "tonalidade": "Ré maior",
+  "loop": true,
+  "lufs": -20.0
+ },
+ {
+  "nome": "leve",
+  "arquivo": "leve.m4a",
+  "clima": [
+   "leve",
+   "lo-fi",
+   "calmo",
+   "relaxado",
+   "rotina",
+   "dica"
+  ],
+  "energia": "baixa",
+  "bpm": 84,
+  "duracao_s": 68.57,
+  "descricao": "Lo-fi tranquilo: piano elétrico com acordes de sétima e nona, batida suingada macia e estalos de vinil bem baixos. Para dicas, rotina, bastidores, conversa.",
+  "volume_sugerido": 0.5,
+  "tonalidade": "Fá maior",
+  "loop": true,
+  "lufs": -20.0
+ },
+ {
+  "nome": "corporativo",
+  "arquivo": "corporativo.m4a",
+  "clima": [
+   "corporativo",
+   "profissional",
+   "neutro",
+   "positivo",
+   "explicativo",
+   "institucional"
+  ],
+  "energia": "media",
+  "bpm": 108,
+  "duracao_s": 71.11,
+  "descricao": "Pluck em arpejo + pad limpo, bateria leve com shaker. Neutra, clara e positiva: explicação de produto, serviço, empresa, tutorial.",
+  "volume_sugerido": 0.5,
+  "tonalidade": "Dó maior",
+  "loop": true,
+  "lufs": -20.0
+ },
+ {
+  "nome": "tensao",
+  "arquivo": "tensao.m4a",
+  "clima": [
+   "tensão",
+   "suspense",
+   "mistério",
+   "alerta",
+   "erro",
+   "revelação"
+  ],
+  "energia": "media",
+  "bpm": 90,
+  "duracao_s": 64.0,
+  "descricao": "Suspense: pulso grave em colcheias, batida de coração, tique de relógio e cordas em semitom. Para alerta, erro comum, segredo, revelação, 'ninguém te conta isso'.",
+  "volume_sugerido": 0.5,
+  "tonalidade": "Ré menor",
+  "loop": true,
+  "lufs": -20.0
+ },
+ {
+  "nome": "tecnologia",
+  "arquivo": "tecnologia.m4a",
+  "clima": [
+   "tecnologia",
+   "inovação",
+   "futuro",
+   "moderno",
+   "inteligência artificial",
+   "digital"
+  ],
+  "energia": "alta",
+  "bpm": 124,
+  "duracao_s": 61.93,
+  "descricao": "Eletrônico moderno: arpejo de synth com eco pingue-pongue, baixo rolando, 4 por tempo. Para tecnologia, IA, apps, novidades, futuro.",
+  "volume_sugerido": 0.5,
+  "tonalidade": "Lá menor",
+  "loop": true,
+  "lufs": -20.0
+ },
+ {
+  "nome": "emocional",
+  "arquivo": "emocional.m4a",
+  "clima": [
+   "emocional",
+   "sensível",
+   "história",
+   "gratidão",
+   "reflexão",
+   "depoimento"
+  ],
+  "energia": "baixa",
+  "bpm": 70,
+  "duracao_s": 68.57,
+  "descricao": "Piano em arpejo com cordas lentas, sem bateria. Para história pessoal, depoimento, gratidão, reflexão, momento sensível.",
+  "volume_sugerido": 0.5,
+  "tonalidade": "Lá menor",
+  "loop": true,
+  "lufs": -20.0
+ }
+]

@@ -1,0 +1,9 @@
+# Obrigatórios (normalmente já existem no computador do chat)
+numpy
+Pillow
+cryptography>=46.0.0,<47  # autorização com chave privada local
+# Opcionais (melhoram muito o resultado; instale se houver internet)
+opencv-python-headless   # achar o rosto e suavizar a pele
+onnxruntime              # recortar a pessoa
+faster-whisper           # transcrição com tempo de cada palavra
+imageio-ffmpeg           # FFmpeg, se o sistema não tiver
